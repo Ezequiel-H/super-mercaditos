@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Tiendas y Supermercados</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        
+        .controls {
+            background: white;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .control-group label {
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .control-group input[type="checkbox"] {
+            transform: scale(1.2);
+        }
+        
+        .stats {
+            background: #f8f9fa;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .stats span {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 8px 15px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-weight: 600;
+        }
+        
+        .stats .shops-count { color: #e74c3c; }
+        .stats .supermarkets-count { color: #3498db; }
+        
+        #map {
+            height: calc(100vh - 200px);
+            width: 100%;
+        }
+        
+        .legend {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            gap: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 0 0 2px #333;
+        }
+        
+        .legend-color.shops { background-color: #e74c3c; }
+        .legend-color.supermarkets { background-color: #3498db; }
+        
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255,255,255,0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🗺️ Mapa de Tiendas y Supermercados</h1>
+        <p>Visualiza la distribución de tiendas comunitarias y supermercados en Buenos Aires</p>
+    </div>
+    
+    <div class="controls">
+        <div class="control-group">
+            <input type="checkbox" id="showShops" checked>
+            <label for="showShops">Mostrar Tiendas</label>
+        </div>
+        <div class="control-group">
+            <input type="checkbox" id="showSupermarkets" checked>
+            <label for="showSupermarkets">Mostrar Supermercados</label>
+        </div>
+    </div>
+    
+    <div class="stats">
+        <span class="shops-count">Tiendas: <span id="shopsCount">0</span></span>
+        <span class="supermarkets-count">Supermercados: <span id="supermarketsCount">0</span></span>
+    </div>
+    
+    <div id="map"></div>
+    
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color shops"></div>
+            <span>Tiendas</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color supermarkets"></div>
+            <span>Supermercados</span>
+        </div>
+    </div>
+    
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <div>Cargando datos...</div>
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="map.js"></script>
+</body>
+</html> 

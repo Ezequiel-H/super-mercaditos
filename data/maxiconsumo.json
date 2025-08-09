@@ -1,0 +1,4121 @@
+[
+    {
+        "id": "3615",
+        "retailer_id": "856",
+        "city": "Ezpeleta",
+        "address": "Camino General Belgrano 2151",
+        "zip": "1884",
+        "province": "Buenos Aires",
+        "lat": "-34.7908",
+        "lng": "-58.24417",
+        "url": "/Tiendas/ezpeleta/maxiconsumo-camino-general-belgrano/6570",
+        "phone": "4391-2137 ",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6570,
+            "tiendeo_seo_slug": "maxiconsumo-camino-general-belgrano"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167604",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167607",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167609",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167611",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167614",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167616",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "167618",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3616",
+        "retailer_id": "856",
+        "city": "Azul",
+        "address": "Ruta 3 Km 298.500",
+        "zip": "7300",
+        "province": "Buenos Aires",
+        "lat": "-36.78898",
+        "lng": "-59.844257",
+        "url": "/Tiendas/azul/maxiconsumo-ruta/6569",
+        "phone": "02281-436210",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6569,
+            "tiendeo_seo_slug": "maxiconsumo-ruta"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167590",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167591",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203630",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "167592",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203631",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "167593",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203632",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "167594",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203633",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "167595",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203634",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203635",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3617",
+        "retailer_id": "856",
+        "city": "Burzaco",
+        "address": "Av. Monteverde 4165",
+        "zip": "1852",
+        "province": "Buenos Aires",
+        "lat": "-34.83537",
+        "lng": "-58.40353",
+        "url": "/Tiendas/burzaco/maxiconsumo-av-monteverde/6573",
+        "phone": "",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6573,
+            "tiendeo_seo_slug": "maxiconsumo-av-monteverde"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167672",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "203539",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "167674",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "203540",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "167676",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "203541",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "167678",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "203542",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "167680",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "203543",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "167682",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203544",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203545",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "167684",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3618",
+        "retailer_id": "856",
+        "city": "Boulogne",
+        "address": "Av. Bdo. de Irigoyen 1062",
+        "zip": "1609",
+        "province": "Buenos Aires",
+        "lat": "-34.50116",
+        "lng": "-58.57689",
+        "url": "/Tiendas/boulogne/maxiconsumo-av-bdo-de-irigoyen/6571",
+        "phone": "4-765-5592",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6571,
+            "tiendeo_seo_slug": "maxiconsumo-av-bdo-de-irigoyen"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167633",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167634",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167636",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167638",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167639",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167642",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "167645",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3619",
+        "retailer_id": "856",
+        "city": "Campana",
+        "address": "Ruta Nacional Nº 9 Colectora sur nº 452 entre Brown y Viamonte",
+        "zip": "2804",
+        "province": "Buenos Aires",
+        "lat": "-34.18273",
+        "lng": "-58.95556",
+        "url": "/Tiendas/campana/maxiconsumo-ruta-nacional-n-colectora-sur-n-entre-brown-y-viamonte/6574",
+        "phone": "03489-422466",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6574,
+            "tiendeo_seo_slug": "maxiconsumo-ruta-nacional-n-colectora-sur-n-entre-brown-y-viamonte"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167699",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167702",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167704",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167706",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167707",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167708",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "167709",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3620",
+        "retailer_id": "856",
+        "city": "Bragado",
+        "address": "Ruta 5 Km 210.5",
+        "zip": "6640",
+        "province": "Buenos Aires",
+        "lat": "-35.14233",
+        "lng": "-60.46019",
+        "url": "/Tiendas/bragado/maxiconsumo-ruta/6572",
+        "phone": "02342-431437",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6572,
+            "tiendeo_seo_slug": "maxiconsumo-ruta"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167650",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167651",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203636",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "167652",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203637",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "167653",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203638",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "167654",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203639",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "167655",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203640",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203641",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3621",
+        "retailer_id": "856",
+        "city": "La Paternal",
+        "address": "Bolivia 2785",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.60149",
+        "lng": "-58.48378",
+        "url": "/Tiendas/la-paternal/maxiconsumo-bolivia/6575",
+        "phone": "4-504-9068 ",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6575,
+            "tiendeo_seo_slug": "maxiconsumo-bolivia"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167715",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203546",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "167717",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203547",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "167720",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203548",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "167722",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203549",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "167723",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203550",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "167725",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203551",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203552",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "167727",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3622",
+        "retailer_id": "856",
+        "city": "Resistencia",
+        "address": "Ruta 11 Km.1005",
+        "zip": "3500",
+        "province": "Chaco",
+        "lat": "-27.42802",
+        "lng": "-59.0109",
+        "url": "/Tiendas/resistencia/maxiconsumo-ruta/6576",
+        "phone": "03624-464037",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6576,
+            "tiendeo_seo_slug": "maxiconsumo-ruta"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167738",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167741",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203642",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167742",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203643",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167745",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203644",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167747",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203645",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167750",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203646",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203647",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3623",
+        "retailer_id": "856",
+        "city": "9 De Abril",
+        "address": "Camino de la Tradición 3701",
+        "zip": "1801",
+        "province": "",
+        "lat": "-34.77178",
+        "lng": "-58.46779",
+        "url": "/Tiendas/9-de-abril/maxiconsumo-camino-de-la-tradicion/6578",
+        "phone": "15-3687-7623",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6578,
+            "tiendeo_seo_slug": "maxiconsumo-camino-de-la-tradicion"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "12503",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203648",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "12506",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203649",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "12512",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203650",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "12524",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203651",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "12534",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203652",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "12539",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "7"
+            },
+            {
+                "id": "203653",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3624",
+        "retailer_id": "856",
+        "city": "Córdoba",
+        "address": "Av. Circunvalación 1400",
+        "zip": "5000",
+        "province": "Córdoba",
+        "lat": "-31.4698",
+        "lng": "-64.1761",
+        "url": "/Tiendas/cordoba/maxiconsumo-av-circunvalacion/6577",
+        "phone": "0351-4947410",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6577,
+            "tiendeo_seo_slug": "maxiconsumo-av-circunvalacion"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "143957",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167782",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203553",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "143960",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167784",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203554",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "143965",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167785",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203555",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "143969",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167786",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203556",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "143972",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167787",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203557",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "143974",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "167788",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203558",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203559",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "143977",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3625",
+        "retailer_id": "856",
+        "city": "José Hernández",
+        "address": "Calle 13 esq. 517",
+        "zip": "1901",
+        "province": "Buenos Aires",
+        "lat": "-34.89349",
+        "lng": "-57.99183",
+        "url": "/Tiendas/jose-hernandez/maxiconsumo-calle-esq/6580",
+        "phone": "0221-484-0671 ",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6580,
+            "tiendeo_seo_slug": "maxiconsumo-calle-esq"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167886",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167888",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167890",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167891",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167894",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167897",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "167898",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3626",
+        "retailer_id": "856",
+        "city": "San Pedro",
+        "address": "Ruta 1001 km 8",
+        "zip": "2930",
+        "province": "Misiones",
+        "lat": "-33.72361",
+        "lng": "-59.64458",
+        "url": "/Tiendas/san-pedro/maxiconsumo-ruta/6579",
+        "phone": "011-5236-3002 ",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6579,
+            "tiendeo_seo_slug": "maxiconsumo-ruta"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168356",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "168360",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "168364",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "168367",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "168370",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "168372",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            }
+        ]
+    },
+    {
+        "id": "3627",
+        "retailer_id": "856",
+        "city": "Mar del Plata",
+        "address": "Av. Champagnat 2600",
+        "zip": "7600",
+        "province": "Buenos Aires",
+        "lat": "-37.98908",
+        "lng": "-57.58868",
+        "url": "/Tiendas/mar-del-plata/maxiconsumo-av-champagnat/6583",
+        "phone": "0223-4788484",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6583,
+            "tiendeo_seo_slug": "maxiconsumo-av-champagnat"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167943",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203567",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "167945",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203568",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167946",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203569",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167947",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203570",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167948",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203571",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167949",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203572",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203573",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3628",
+        "retailer_id": "856",
+        "city": "Loma Hermosa",
+        "address": "Av. Marquez 1545",
+        "zip": "1657",
+        "province": "Buenos Aires",
+        "lat": "-34.57646",
+        "lng": "-58.59833",
+        "url": "/Tiendas/loma-hermosa/maxiconsumo-av-marquez/6581",
+        "phone": "4-769-0041",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6581,
+            "tiendeo_seo_slug": "maxiconsumo-av-marquez"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167918",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203560",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "167921",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203561",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "167923",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203562",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "167926",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203563",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "167928",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203564",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "167931",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203565",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203566",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "167933",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3629",
+        "retailer_id": "856",
+        "city": "Merlo (Buenos Aires)",
+        "address": "Av. R. Balbin 2351 (ruta 200)",
+        "zip": "1722",
+        "province": "Buenos Aires",
+        "lat": "-34.67019",
+        "lng": "-58.74725",
+        "url": "/Tiendas/merlo/maxiconsumo-av-r-balbin-ruta/6585",
+        "phone": "0220-4835518",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6585,
+            "tiendeo_seo_slug": "maxiconsumo-av-r-balbin-ruta"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168023",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "168025",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "168026",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "168029",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "168033",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "168038",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "168042",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3630",
+        "retailer_id": "856",
+        "city": "Godoy Cruz",
+        "address": "Rodriguez Peña 2600",
+        "zip": "5501",
+        "province": "Mendoza",
+        "lat": "-32.92966",
+        "lng": "-68.81069",
+        "url": "/Tiendas/godoy-cruz/maxiconsumo-rodriguez-pena/6584",
+        "phone": "(0261) 153482037 ",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6584,
+            "tiendeo_seo_slug": "maxiconsumo-rodriguez-pena"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167961",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167964",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203660",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "167966",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203661",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "167969",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203662",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "167971",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203663",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "167975",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203664",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203665",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3631",
+        "retailer_id": "856",
+        "city": "San Nicolás de los Arroyos",
+        "address": "Luis Viale 272",
+        "zip": "2900",
+        "province": "Buenos Aires",
+        "lat": "-33.32447",
+        "lng": "-60.2309",
+        "url": "/Tiendas/san-nicolas-de-los-arroyos/maxiconsumo-luis-viale/6586",
+        "phone": "0336-4435633 ",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6586,
+            "tiendeo_seo_slug": "maxiconsumo-luis-viale"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "144990",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "168331",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "144993",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "168333",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203672",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "144995",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "168336",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203673",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "144998",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "168337",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203674",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "145001",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "168338",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203675",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "145003",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "168339",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203676",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203677",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3632",
+        "retailer_id": "856",
+        "city": "Necochea",
+        "address": "Calle 75 N° 2915",
+        "zip": "7630",
+        "province": "Buenos Aires",
+        "lat": "-38.55828",
+        "lng": "-58.75047",
+        "url": "/Tiendas/necochea/maxiconsumo-calle-n%C2%B0/6587",
+        "phone": "02262-42-9645",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6587,
+            "tiendeo_seo_slug": "maxiconsumo-calle-n%C2%B0"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168056",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "168057",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "168058",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "168060",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "168061",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "168063",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            }
+        ]
+    },
+    {
+        "id": "3633",
+        "retailer_id": "856",
+        "city": "Olavarría",
+        "address": "Avenida Pellegrini 2404",
+        "zip": "7400",
+        "province": "Buenos Aires",
+        "lat": "-36.9085",
+        "lng": "-60.31023",
+        "url": "/Tiendas/olavarria/maxiconsumo-avenida-pellegrini/6588",
+        "phone": "02284-452742",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6588,
+            "tiendeo_seo_slug": "maxiconsumo-avenida-pellegrini"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168084",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "168086",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203666",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "168089",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203667",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "168090",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203668",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "168092",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203669",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "168094",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203670",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203671",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3634",
+        "retailer_id": "856",
+        "city": "San Fernando",
+        "address": "Benito Lynch S/N 230",
+        "zip": "1648",
+        "province": "Buenos Aires",
+        "lat": "-34.44363",
+        "lng": "-58.59342",
+        "url": "/Tiendas/san-fernando/maxiconsumo-benito-lynch-sn/6589",
+        "phone": "4 506-9168",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6589,
+            "tiendeo_seo_slug": "maxiconsumo-benito-lynch-sn"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168453",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203616",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "168455",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203617",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "168457",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203618",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "168460",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203619",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "168463",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203620",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "168465",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203621",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203622",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "168468",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3635",
+        "retailer_id": "856",
+        "city": "Posadas",
+        "address": "L. Quaranta y Aguado",
+        "zip": "3300",
+        "province": "Misiones",
+        "lat": "-27.40241",
+        "lng": "-55.92963",
+        "url": "/Tiendas/posadas/maxiconsumo-l-quaranta-y-aguado/6590",
+        "phone": "0376-4-45-4800",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6590,
+            "tiendeo_seo_slug": "maxiconsumo-l-quaranta-y-aguado"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168143",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "168145",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "168148",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "168149",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "168151",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "168152",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "168154",
+                "open": "09:00:00",
+                "close": "480",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3636",
+        "retailer_id": "856",
+        "city": "Muñiz",
+        "address": "Av Ricardo Balbín 2700 (Ex Mitre)",
+        "zip": "1663",
+        "province": "Buenos Aires",
+        "lat": "-34.55385",
+        "lng": "-58.72515",
+        "url": "/Tiendas/muniz/maxiconsumo-av-ricardo-balbin-ex-mitre/6592",
+        "phone": "4-455-2260",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6592,
+            "tiendeo_seo_slug": "maxiconsumo-av-ricardo-balbin-ex-mitre"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168306",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203602",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "168310",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203603",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "168315",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203604",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "168319",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203605",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "168323",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203606",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "168326",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203607",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203608",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "168329",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3637",
+        "retailer_id": "856",
+        "city": "General Roca (Río Negro)",
+        "address": "Gral. Juan Domingo Perón 1057",
+        "zip": "R8332DYR",
+        "province": "Río Negro",
+        "lat": "-39.0327",
+        "lng": "-67.58808",
+        "url": "/Tiendas/general-roca-rio-negro/maxiconsumo-gral-juan-domingo-peron/6591",
+        "phone": "02984-429571",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6591,
+            "tiendeo_seo_slug": "maxiconsumo-gral-juan-domingo-peron"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167832",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "167835",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "203654",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "167839",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "203655",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "167840",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "203656",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "167845",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "203657",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "167848",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203658",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203659",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3638",
+        "retailer_id": "856",
+        "city": "El Talar (Buenos Aires)",
+        "address": "Ruta 197 Nro. 2815",
+        "zip": "1618",
+        "province": "Buenos Aires",
+        "lat": "-34.47644",
+        "lng": "-58.66522",
+        "url": "/Tiendas/el-talar-buenos-aires/maxiconsumo-ruta-nro/6593",
+        "phone": "4-726-8596",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6593,
+            "tiendeo_seo_slug": "maxiconsumo-ruta-nro"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168107",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203574",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "168109",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203575",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "168111",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203576",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "168112",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203577",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "168114",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203578",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "168115",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203579",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203580",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "168117",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3639",
+        "retailer_id": "856",
+        "city": "Salta",
+        "address": "Msñor. Tavella 2020",
+        "zip": "4400",
+        "province": "Salta",
+        "lat": "-24.8271",
+        "lng": "-65.42764",
+        "url": "/Tiendas/salta/maxiconsumo-msnor-tavella/6596",
+        "phone": "0387-427-0724",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6596,
+            "tiendeo_seo_slug": "maxiconsumo-msnor-tavella"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168187",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203588",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "168190",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203589",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "168192",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203590",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "168195",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203591",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "168199",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203592",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "168202",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203593",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203594",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "168204",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3640",
+        "retailer_id": "856",
+        "city": "San Luis",
+        "address": "Avda. Pque. Gdor. Jose Stos. Ortiz KM 790",
+        "zip": "5700",
+        "province": "San Luis",
+        "lat": "-33.32264",
+        "lng": "-66.35908",
+        "url": "/Tiendas/san-luis/maxiconsumo-avda-pque-gdor-jose-stos-ortiz/6598",
+        "phone": "",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6598,
+            "tiendeo_seo_slug": "maxiconsumo-avda-pque-gdor-jose-stos-ortiz"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168421",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203609",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "168423",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203610",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "168425",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203611",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "168428",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203612",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "168430",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203613",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "168432",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203614",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203615",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "168434",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3641",
+        "retailer_id": "856",
+        "city": "Santa Fe",
+        "address": "J.J.Paso 3714",
+        "zip": "3000",
+        "province": "Santa Fe",
+        "lat": "-31.66127",
+        "lng": "-60.72481",
+        "url": "/Tiendas/santa-fe/maxiconsumo-jjpaso/6597",
+        "phone": "0342-459-9113",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6597,
+            "tiendeo_seo_slug": "maxiconsumo-jjpaso"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168386",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "168389",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "203678",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "168392",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "203679",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "168394",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "203680",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "168398",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "203681",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "168400",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203682",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203683",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3642",
+        "retailer_id": "856",
+        "city": "Moreno",
+        "address": "Gaona Acceso Oeste 8676",
+        "zip": "1744",
+        "province": "Buenos Aires",
+        "lat": "-34.627087",
+        "lng": "-58.8122",
+        "url": "/Tiendas/moreno/maxiconsumo-gaona-acceso-oeste/6599",
+        "phone": "",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6599,
+            "tiendeo_seo_slug": "maxiconsumo-gaona-acceso-oeste"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "144441",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "144446",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "144448",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "144451",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "144454",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "144456",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "144458",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3643",
+        "retailer_id": "856",
+        "city": "San Miguel de Tucumán",
+        "address": "Lavalle 3253",
+        "zip": "4000",
+        "province": "Tucumán",
+        "lat": "-26.83112",
+        "lng": "-65.24878",
+        "url": "/Tiendas/san-miguel-de-tucuman/maxiconsumo-lavalle/6600",
+        "phone": "0381-4333920",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6600,
+            "tiendeo_seo_slug": "maxiconsumo-lavalle"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168486",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "168487",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "168490",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "168491",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "168494",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "168497",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            }
+        ]
+    },
+    {
+        "id": "3644",
+        "retailer_id": "856",
+        "city": "Villa Domínico",
+        "address": "Centenario Uruguayo 1244",
+        "zip": "1874",
+        "province": "Buenos Aires",
+        "lat": "-34.70357",
+        "lng": "-58.34073",
+        "url": "/Tiendas/villa-dominico/maxiconsumo-centenario-uruguayo/6601",
+        "phone": "4-217-0459 ",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6601,
+            "tiendeo_seo_slug": "maxiconsumo-centenario-uruguayo"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "145287",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "168499",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203623",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "145293",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "168501",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203624",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "145302",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "168502",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203625",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "145306",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "168503",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203626",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "145312",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "168505",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203627",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "145318",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "168507",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203628",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203629",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            },
+            {
+                "id": "145321",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31733",
+        "retailer_id": "856",
+        "city": "González Catán",
+        "address": "J.M. de Rosas 14720",
+        "zip": "1759",
+        "province": "Buenos Aires",
+        "lat": "-34.76733",
+        "lng": "-58.61635",
+        "url": "/Tiendas/gonzalez-catan/maxiconsumo-jm-de-rosas/59263",
+        "phone": "2118-7484",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 59263,
+            "tiendeo_seo_slug": "maxiconsumo-jm-de-rosas"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167856",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167857",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167858",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167859",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167860",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167862",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "167864",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31734",
+        "retailer_id": "856",
+        "city": "San Justo (Buenos Aires)",
+        "address": "J. M. de Rosas 4818",
+        "zip": "1754",
+        "province": "Buenos Aires",
+        "lat": "-34.68902",
+        "lng": "-58.56627",
+        "url": "/Tiendas/san-justo/maxiconsumo-j-m-de-rosas/59264",
+        "phone": "4-651-0589 ",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 59264,
+            "tiendeo_seo_slug": "maxiconsumo-j-m-de-rosas"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168265",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "168268",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "168272",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "168276",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "168279",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "168284",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "168286",
+                "open": "09:00:00",
+                "close": "480",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31736",
+        "retailer_id": "856",
+        "city": "Río Grande",
+        "address": "Chacabuco 1289",
+        "zip": "9420",
+        "province": "Tierra del Fuego",
+        "lat": "-53.79977",
+        "lng": "-67.73716",
+        "url": "/Tiendas/rio-grande/maxiconsumo-chacabuco/59265",
+        "phone": "02964-422-840",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 59265,
+            "tiendeo_seo_slug": "maxiconsumo-chacabuco"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "85076",
+                "open": "10:00:00",
+                "close": "480",
+                "dow": "1"
+            },
+            {
+                "id": "85037",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "85043",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "85049",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "85055",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "85062",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "85067",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "38836",
+        "retailer_id": "856",
+        "city": "Tapiales",
+        "address": "De la hoja 315",
+        "zip": "1770",
+        "province": "Buenos Aires",
+        "lat": "-34.70965",
+        "lng": "-58.49527",
+        "url": "/Tiendas/tapiales/maxiconsumo-de-la-hoja/67542",
+        "phone": "7513-5853 ",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 67542,
+            "tiendeo_seo_slug": "maxiconsumo-de-la-hoja"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167997",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "168000",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "168002",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "168004",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "168006",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "168009",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "168012",
+                "open": "09:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "38837",
+        "retailer_id": "856",
+        "city": "Chimbas",
+        "address": "Ruta N°40 Km 3456",
+        "zip": "5427",
+        "province": "San Juan",
+        "lat": "-31.60314",
+        "lng": "-68.52686",
+        "url": "/Tiendas/chimbas/maxiconsumo-ruta-n%C2%B0/67543",
+        "phone": "(264) 438-9328",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 67543,
+            "tiendeo_seo_slug": "maxiconsumo-ruta-n%C2%B0"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "96626",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "1"
+            },
+            {
+                "id": "96594",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "96600",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "96604",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "96608",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "96613",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "96621",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "39393",
+        "retailer_id": "856",
+        "city": "Comodoro Rivadavia",
+        "address": "Av. Hipólito Yrigoyen 3057",
+        "zip": "U9000",
+        "province": "Chubut",
+        "lat": "-45.88556",
+        "lng": "-67.52121",
+        "url": "/Tiendas/comodoro-rivadavia/maxiconsumo-av-hipolito-yrigoyen/68252",
+        "phone": "(0297) 448-5630",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 68252,
+            "tiendeo_seo_slug": "maxiconsumo-av-hipolito-yrigoyen"
+        },
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167765",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167766",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167769",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167772",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167774",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167776",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "167779",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "41090",
+        "retailer_id": "856",
+        "city": "Buenos Aires",
+        "address": "Camino de la Tradición 3701",
+        "zip": "1801",
+        "province": "Esteban Echeverría",
+        "lat": "-34.603684",
+        "lng": "-58.381559",
+        "url": "/Tiendas/buenos-aires/maxiconsumo-camino-de-la-tradicion/41090",
+        "phone": "15-3687-7623",
+        "fax": "",
+        "extras": null,
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "167798",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "167800",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "167803",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "167807",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "167810",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "167812",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            }
+        ]
+    },
+    {
+        "id": "41092",
+        "retailer_id": "856",
+        "city": "Río Grande",
+        "address": "Islas Malvinas (Ruta Nacional N°3) 3151",
+        "zip": "V9420",
+        "province": "Tierra Del Fuego",
+        "lat": "-53.783865",
+        "lng": "-67.720211",
+        "url": "/Tiendas/rio-grande/maxiconsumo-islas-malvinas-ruta-nacional-n%C2%B0/41092",
+        "phone": "02964-422-840",
+        "fax": "",
+        "extras": null,
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168165",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "203581",
+                "open": "10:00:00",
+                "close": "480",
+                "dow": "1"
+            },
+            {
+                "id": "168168",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "203582",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "168170",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "203583",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "168172",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "203584",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "168174",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "203585",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "168176",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "203586",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "203587",
+                "open": "09:00:00",
+                "close": "600",
+                "dow": "7"
+            },
+            {
+                "id": "168179",
+                "open": "10:00:00",
+                "close": "480",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "41522",
+        "retailer_id": "856",
+        "city": "Concordia",
+        "address": "Av. San Lorenzo Oeste 1349",
+        "zip": "E3202",
+        "province": "",
+        "lat": "-31.380686",
+        "lng": "-58.043609",
+        "url": "/Tiendas/concordia/maxiconsumo-av-san-lorenzo-oeste/41522",
+        "phone": "",
+        "fax": "",
+        "extras": null,
+        "retailer": {
+            "id": "856",
+            "category_id": "1",
+            "name": "Maxiconsumo",
+            "slug": "maxiconsumo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "242328",
+            "rank_td": "242328",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": "1271",
+            "synonyms": [
+                "maxi cansumo",
+                "maxi consumo",
+                "maxiconsum",
+                "Maxiconsumo AR",
+                "maxiconsumo argentina",
+                "mayorista maxiconsumo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_maxiconsumo_transparent_webp.webp?modified=1719467772",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_maxiconsumo.png?modified=1691050538"
+        },
+        "store_hours": [
+            {
+                "id": "168512",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "168514",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "2"
+            },
+            {
+                "id": "168517",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "3"
+            },
+            {
+                "id": "168519",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "4"
+            },
+            {
+                "id": "168521",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "5"
+            },
+            {
+                "id": "168524",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "6"
+            },
+            {
+                "id": "168529",
+                "open": "10:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    }
+]

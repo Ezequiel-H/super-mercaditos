@@ -1,0 +1,2798 @@
+[
+    {
+        "id": "456",
+        "retailer_id": "1055",
+        "city": "Rincon De Milberg",
+        "address": "Av. de los Lagos",
+        "zip": "1670",
+        "province": "Buenos Aires",
+        "lat": "-34.40042",
+        "lng": "-58.65532",
+        "url": "/Tiendas/rincon-de-milberg/jumbo-av-de-los-lagos/1580",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1580,
+            "tiendeo_seo_slug": "jumbo-av-de-los-lagos"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "143650",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "143657",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "143660",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "143666",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "143671",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "143674",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "143677",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "457",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Av. Bullrich 345",
+        "zip": "C1425FTD",
+        "province": "CABA",
+        "lat": "-34.574535",
+        "lng": "-58.425854",
+        "url": "/Tiendas/buenos-aires/jumbo-av-bullrich/1584",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1584,
+            "tiendeo_seo_slug": "jumbo-av-bullrich"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "144550",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "144563",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "144572",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "144581",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "144586",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "144590",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "144594",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "459",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Tronador 801",
+        "zip": "C1427COT",
+        "province": "CABA",
+        "lat": "-34.583485",
+        "lng": "-58.46553",
+        "url": "/Tiendas/buenos-aires/jumbo-tronador/1582",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1582,
+            "tiendeo_seo_slug": "jumbo-tronador"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "143753",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "143760",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "143764",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "143766",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "143769",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "143771",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "143774",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "460",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Lola Mora 420",
+        "zip": "1107",
+        "province": "CABA",
+        "lat": "-34.619343",
+        "lng": "-58.360943",
+        "url": "/Tiendas/buenos-aires/jumbo-lola-mora/1585",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1585,
+            "tiendeo_seo_slug": "jumbo-lola-mora"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "146301",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "146304",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "146308",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "146314",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "146319",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "146324",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "146330",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "464",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Av. Juan B. Justo 4715",
+        "zip": "C1416DKO",
+        "province": "CABA",
+        "lat": "-34.60921",
+        "lng": "-58.466244",
+        "url": "/Tiendas/buenos-aires/jumbo-av-juan-b-justo/1587",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1587,
+            "tiendeo_seo_slug": "jumbo-av-juan-b-justo"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "143505",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "143509",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "143513",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "143519",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "143525",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "143529",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "143532",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "465",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Av. Santa Fé 4950",
+        "zip": "C1425BHY",
+        "province": "CABA",
+        "lat": "-34.577484",
+        "lng": "-58.42961",
+        "url": "/Tiendas/buenos-aires/jumbo-av-santa-fe/1588",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1588,
+            "tiendeo_seo_slug": "jumbo-av-santa-fe"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "146214",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "146217",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "146222",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "146228",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "146232",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "146238",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "146242",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "466",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Av. Acoyte 702",
+        "zip": "C1405BGS",
+        "province": "CABA",
+        "lat": "-34.610554",
+        "lng": "-58.439896",
+        "url": "/Tiendas/buenos-aires/jumbo-av-acoyte/1590",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1590,
+            "tiendeo_seo_slug": "jumbo-av-acoyte"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145759",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "145765",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "145770",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "145772",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "145775",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "145777",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "145778",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "468",
+        "retailer_id": "1055",
+        "city": "Belén de Escobar",
+        "address": "Ruta 25 1710 (y Panamericana)",
+        "zip": "B1625XAF",
+        "province": "Buenos Aires",
+        "lat": "-34.36298",
+        "lng": "-58.79739",
+        "url": "/Tiendas/belen-de-escobar/jumbo-ruta-y-panamericana/1593",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1593,
+            "tiendeo_seo_slug": "jumbo-ruta-y-panamericana"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145475",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "145480",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "145485",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "145491",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "145498",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "145503",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "145510",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "469",
+        "retailer_id": "1055",
+        "city": "Olivos",
+        "address": "Corrientes 449",
+        "zip": "B1636GEG",
+        "province": "Buenos Aires",
+        "lat": "-34.50773",
+        "lng": "-58.47899",
+        "url": "/Tiendas/olivos/jumbo-corrientes/1596",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1596,
+            "tiendeo_seo_slug": "jumbo-corrientes"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "143947",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "143951",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "143955",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "143961",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "143966",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "143971",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "143975",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "470",
+        "retailer_id": "1055",
+        "city": "Morón",
+        "address": "Blvd. Juan Manuel de Rosas 658",
+        "zip": "B1712HIS",
+        "province": "Buenos Aires",
+        "lat": "-34.63513",
+        "lng": "-58.62988",
+        "url": "/Tiendas/moron/jumbo-blvd-juan-manuel-de-rosas/1597",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1597,
+            "tiendeo_seo_slug": "jumbo-blvd-juan-manuel-de-rosas"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "144192",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "144196",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "144199",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "144205",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "144209",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "144213",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "144217",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "471",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Guardia Vieja 4558",
+        "zip": "C1192AAZ",
+        "province": "CABA",
+        "lat": "-34.600025",
+        "lng": "-58.428936",
+        "url": "/Tiendas/buenos-aires/jumbo-guardia-vieja/1591",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1591,
+            "tiendeo_seo_slug": "jumbo-guardia-vieja"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "146120",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "146125",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "146131",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "146136",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "146140",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "146144",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "146146",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "472",
+        "retailer_id": "1055",
+        "city": "General Pacheco",
+        "address": "Boulogne Sur Mer 1275",
+        "zip": "B1617CEG",
+        "province": "Buenos Aires",
+        "lat": "-34.46796",
+        "lng": "-58.62428",
+        "url": "/Tiendas/general-pacheco/jumbo-boulogne-sur-mer/1599",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1599,
+            "tiendeo_seo_slug": "jumbo-boulogne-sur-mer"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "146034",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "146037",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "146039",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "146041",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "146043",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "146045",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "146047",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "474",
+        "retailer_id": "1055",
+        "city": "Villa Rosa",
+        "address": "Las Magnolias 698",
+        "zip": "1629",
+        "province": "Buenos Aires",
+        "lat": "-34.44508",
+        "lng": "-58.8692",
+        "url": "/Tiendas/villa-rosa/jumbo-las-magnolias/1600",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1600,
+            "tiendeo_seo_slug": "jumbo-las-magnolias"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "144803",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "144809",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "144815",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "144822",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "144830",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "144837",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "144841",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "476",
+        "retailer_id": "1055",
+        "city": "San Fernando",
+        "address": "Av. del Libertador 2261",
+        "zip": "B1646DCJ",
+        "province": "Buenos Aires",
+        "lat": "-34.4469",
+        "lng": "-58.54567",
+        "url": "/Tiendas/san-fernando/jumbo-av-del-libertador/1602",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1602,
+            "tiendeo_seo_slug": "jumbo-av-del-libertador"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "144926",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "144929",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "144933",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "144940",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "144945",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "144949",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "144953",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "477",
+        "retailer_id": "1055",
+        "city": "Ezpeleta",
+        "address": "Av. Calchaquí 3950",
+        "zip": "B1879EVN",
+        "province": "Buenos Aires",
+        "lat": "-34.75827",
+        "lng": "-58.27491",
+        "url": "/Tiendas/ezpeleta/jumbo-av-calchaqui/1604",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1604,
+            "tiendeo_seo_slug": "jumbo-av-calchaqui"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145934",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "145937",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "145939",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "145942",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "145946",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "145950",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "145954",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "478",
+        "retailer_id": "1055",
+        "city": "Quilmes",
+        "address": "Av. Mitre 1075",
+        "zip": "1878",
+        "province": "Buenos Aires",
+        "lat": "-34.72825",
+        "lng": "-58.24917",
+        "url": "/Tiendas/quilmes/jumbo-av-mitre/1605",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1605,
+            "tiendeo_seo_slug": "jumbo-av-mitre"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "144680",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "144683",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "144687",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "144690",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "144694",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "144697",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "144702",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "479",
+        "retailer_id": "1055",
+        "city": "Martínez",
+        "address": "Paraná 3745",
+        "zip": "B1640FRE",
+        "province": "Buenos Aires",
+        "lat": "-34.50859",
+        "lng": "-58.52398",
+        "url": "/Tiendas/martinez/jumbo-parana/1609",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1609,
+            "tiendeo_seo_slug": "jumbo-parana"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145178",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "145182",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "145185",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "145187",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "145188",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "145191",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "145195",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "481",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Av. Gral. Francisco Fernández de la Cruz 4602",
+        "zip": "C1439CNW",
+        "province": "CABA",
+        "lat": "-34.67464",
+        "lng": "-58.460373",
+        "url": "/Tiendas/buenos-aires/jumbo-av-gral-francisco-fernandez-de-la-cruz/1611",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1611,
+            "tiendeo_seo_slug": "jumbo-av-gral-francisco-fernandez-de-la-cruz"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145271",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "145278",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "145283",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "145295",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "145303",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "145311",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "145317",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "483",
+        "retailer_id": "1055",
+        "city": "Luján de Cuyo",
+        "address": "San Martín 6279",
+        "zip": "M5505FNC",
+        "province": "Mendoza",
+        "lat": "-32.97962",
+        "lng": "-68.85825",
+        "url": "/Tiendas/lujan-de-cuyo/jumbo-san-martin/1613",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1613,
+            "tiendeo_seo_slug": "jumbo-san-martin"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "143856",
+                "open": "09:30:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "143860",
+                "open": "09:30:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "143864",
+                "open": "09:30:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "143866",
+                "open": "09:30:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "143871",
+                "open": "09:30:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "143876",
+                "open": "09:30:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "143880",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "484",
+        "retailer_id": "1055",
+        "city": "Rosario",
+        "address": "Nansen 323",
+        "zip": "2000",
+        "province": "Santa Fe",
+        "lat": "-32.90949",
+        "lng": "-60.68281",
+        "url": "/Tiendas/rosario/jumbo-nansen/1615",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1615,
+            "tiendeo_seo_slug": "jumbo-nansen"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "143406",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "143410",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "143413",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "143416",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "143417",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "143418",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "143419",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "485",
+        "retailer_id": "1055",
+        "city": "Salta",
+        "address": "20 de Febrero 1437",
+        "zip": "4400",
+        "province": "Salta",
+        "lat": "-24.78024",
+        "lng": "-65.41545",
+        "url": "/Tiendas/salta/jumbo-de-febrero/1614",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1614,
+            "tiendeo_seo_slug": "jumbo-de-febrero"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145572",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "145576",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "145578",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "145581",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "145583",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "145586",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "145589",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "488",
+        "retailer_id": "1055",
+        "city": "Marcos Paz (Tucumán)",
+        "address": "Cariola 42",
+        "zip": "",
+        "province": "Tucumán",
+        "lat": "-26.82257",
+        "lng": "-65.26859",
+        "url": "/Tiendas/marcos-paz/jumbo-cariola/1618",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 1618,
+            "tiendeo_seo_slug": "jumbo-cariola"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "144435",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "144440",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "144444",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "144449",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "144453",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "144459",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "144462",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "14311",
+        "retailer_id": "1055",
+        "city": "San Martín",
+        "address": "San Lorenzo 3773",
+        "zip": "B1653GOI",
+        "province": "Buenos Aires",
+        "lat": "-34.564617",
+        "lng": "-58.55443",
+        "url": "/Tiendas/san-martin/jumbo-san-lorenzo/22419",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 22419,
+            "tiendeo_seo_slug": "jumbo-san-lorenzo"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145648",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "145652",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "145657",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "145661",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "145664",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "145668",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "145673",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "14576",
+        "retailer_id": "1055",
+        "city": "Comodoro Rivadavia",
+        "address": "Av. Ingeniero Ducos 1325",
+        "zip": "U9005EBA",
+        "province": "Chubut",
+        "lat": "-45.87271",
+        "lng": "-67.49347",
+        "url": "/Tiendas/comodoro-rivadavia/jumbo-av-ingeniero-ducos/23250",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 23250,
+            "tiendeo_seo_slug": "jumbo-av-ingeniero-ducos"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "143206",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "143208",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "143210",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "143211",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "143213",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "143215",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "143217",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "26441",
+        "retailer_id": "1055",
+        "city": "Neuquén",
+        "address": "J.J. Lastra 2400",
+        "zip": "8400",
+        "province": "Neuquén",
+        "lat": "-38.96142",
+        "lng": "-68.09429",
+        "url": "/Tiendas/neuquen/jumbo-jj-lastra/48535",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 48535,
+            "tiendeo_seo_slug": "jumbo-jj-lastra"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145041",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "145047",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "145053",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "145059",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "145063",
+                "open": "08:30:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "145072",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "6"
+            }
+        ]
+    },
+    {
+        "id": "29678",
+        "retailer_id": "1055",
+        "city": "Llavallol",
+        "address": "Av. Gral. Eustaquio Frías 3201",
+        "zip": "B1836ELQ",
+        "province": "Buenos Aires",
+        "lat": "-34.79214",
+        "lng": "-58.41785",
+        "url": "/Tiendas/llavallol/jumbo-av-gral-eustaquio-frias/54734",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 54734,
+            "tiendeo_seo_slug": "jumbo-av-gral-eustaquio-frias"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "144067",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "144072",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "144077",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "144083",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "144087",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "144088",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "144092",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31298",
+        "retailer_id": "1055",
+        "city": "Godoy Cruz",
+        "address": "Balcarce 897",
+        "zip": "M5501BQQ",
+        "province": "Mendoza",
+        "lat": "-32.91733",
+        "lng": "-68.83971",
+        "url": "/Tiendas/godoy-cruz/jumbo-balcarce/58325",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58325,
+            "tiendeo_seo_slug": "jumbo-balcarce"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "144297",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "144302",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "144309",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "144316",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "144322",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "144326",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "144333",
+                "open": "09:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31345",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Arenales 870",
+        "zip": "C1061",
+        "province": "CABA",
+        "lat": "-34.594227",
+        "lng": "-58.379375",
+        "url": "/Tiendas/buenos-aires/jumbo-arenales/58395",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58395,
+            "tiendeo_seo_slug": "jumbo-arenales"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "143290",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "143299",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "143311",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "143314",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "143319",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "143322",
+                "open": "08:30:00",
+                "close": "360",
+                "dow": "6"
+            },
+            {
+                "id": "143325",
+                "open": "08:30:00",
+                "close": "360",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "38379",
+        "retailer_id": "1055",
+        "city": "Buenos Aires",
+        "address": "Av. Gral. las Heras 2564",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.58544",
+        "lng": "-58.39984",
+        "url": "/Tiendas/buenos-aires/jumbo-av-gral-las-heras/67003",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 67003,
+            "tiendeo_seo_slug": "jumbo-av-gral-las-heras"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "143105",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "143109",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "143115",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "143120",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "143125",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "143130",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "143136",
+                "open": "09:00:00",
+                "close": "360",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "38387",
+        "retailer_id": "1055",
+        "city": "Del Viso",
+        "address": "Au Panamericana Km 44",
+        "zip": "",
+        "province": "Buenos Aires",
+        "lat": "-34.43591",
+        "lng": "-58.80806",
+        "url": "/Tiendas/del-viso/jumbo-au-panamericana/67002",
+        "phone": "0810-999-58626",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 67002,
+            "tiendeo_seo_slug": "jumbo-au-panamericana"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145843",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "145847",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "145851",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "145854",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "145858",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "145864",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "145867",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "40902",
+        "retailer_id": "1055",
+        "city": "Córdoba",
+        "address": "Duarte Quiros Ignacio 1450 - X5000Amb",
+        "zip": "X5000AMB",
+        "province": "Córdoba",
+        "lat": "-31.41306",
+        "lng": "-64.20435",
+        "url": "/Tiendas/cordoba/jumbo-duarte-quiros-ignacio--xamb/69869",
+        "phone": "03514828380",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 69869,
+            "tiendeo_seo_slug": "jumbo-duarte-quiros-ignacio--xamb"
+        },
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": [
+            {
+                "id": "145390",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "145394",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "145400",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "145405",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "145409",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "145416",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "145420",
+                "open": "09:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "41672",
+        "retailer_id": "1055",
+        "city": "Salta",
+        "address": "Av. San Martín 725, San Lorenzo, Salta.",
+        "zip": "",
+        "province": "",
+        "lat": "-24.745955",
+        "lng": "-65.484874",
+        "url": "/Tiendas/salta/jumbo-av-san-martin-san-lorenzo-salta/41672",
+        "phone": "",
+        "fax": "",
+        "extras": null,
+        "retailer": {
+            "id": "1055",
+            "category_id": "1",
+            "name": "Jumbo",
+            "slug": "jumbo",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "102993",
+            "rank_td": "102993",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 3,
+            "synonyms": [
+                "dumbo",
+                "jmbo",
+                "Jumbo AR",
+                "jumbo argentina",
+                "jumbo super",
+                "jumbo supermercado",
+                "jumbo supermercados",
+                "llumbo",
+                "supermercado jumbo",
+                "supermercados jumbo",
+                "yumbo"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_jumbo_transparent_webp.webp?modified=1719460789",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_jumbo.png?modified=1691050493"
+        },
+        "store_hours": null
+    }
+]

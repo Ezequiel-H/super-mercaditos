@@ -1,0 +1,2362 @@
+[
+    {
+        "id": "3784",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Tronador Nº400, Villa Ortúzar",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.58694",
+        "lng": "-58.46822",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-tronador-n-villa-ortuzar/6905",
+        "phone": "011 4553-6700",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6905,
+            "tiendeo_seo_slug": "supermayorista-vital-tronador-n-villa-ortuzar"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111188",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12785",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111191",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12788",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111193",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12790",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111195",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12792",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111197",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12796",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111199",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12803",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3785",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Ruta 3, Km Nº690, Bahía Blanca",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-38.73699",
+        "lng": "-62.29745",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-ruta--n-bahia-blanca/6906",
+        "phone": "0291 400-5100",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6906,
+            "tiendeo_seo_slug": "supermayorista-vital-ruta--n-bahia-blanca"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111227",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12793",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111230",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12797",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111233",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12802",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111235",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12811",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111237",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12818",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111239",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12824",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3786",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Ruta Provincial Nº 88 Km Nº5, Mar del Plata",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-38.00861",
+        "lng": "-57.61817",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-ruta-provincial-n--n-mar-del-plata/6907",
+        "phone": "0223 626-2800",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6907,
+            "tiendeo_seo_slug": "supermayorista-vital-ruta-provincial-n--n-mar-del-plata"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111320",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12795",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111323",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12798",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111324",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12804",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111327",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12809",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111329",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12814",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111331",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12821",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3787",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Carlos Fiorito Nº820, Avellaneda",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.66373",
+        "lng": "-58.3904",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-carlos-fiorito-n-avellaneda/6908",
+        "phone": "011 4001-8000",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6908,
+            "tiendeo_seo_slug": "supermayorista-vital-carlos-fiorito-n-avellaneda"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111214",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12794",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111216",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12800",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111219",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12805",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111221",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12812",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111223",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12819",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111225",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12826",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3788",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Av. Monteverde Nº4100, Burzaco",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.8359",
+        "lng": "-58.4045",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-av-monteverde-n-burzaco/6909",
+        "phone": "5438 6700",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6909,
+            "tiendeo_seo_slug": "supermayorista-vital-av-monteverde-n-burzaco"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111241",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12799",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111243",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12806",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111245",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12813",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111247",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12820",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111249",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12825",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111251",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12829",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3790",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Av. Hipólito Yrigoyen Nº2420, El Talar",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.47453",
+        "lng": "-58.65784",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-av-hipolito-yrigoyen-n-el-talar/6910",
+        "phone": "011 4006-9900",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6910,
+            "tiendeo_seo_slug": "supermayorista-vital-av-hipolito-yrigoyen-n-el-talar"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111253",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12808",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111254",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12816",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111256",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12823",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111258",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12828",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111260",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12831",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111263",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12833",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3791",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "RN3 Km. Nº25, Laferrere",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.72545",
+        "lng": "-58.60074",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-rn--n-laferrere/6911",
+        "phone": "011 40151600",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6911,
+            "tiendeo_seo_slug": "supermayorista-vital-rn--n-laferrere"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111282",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12810",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111285",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12817",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111287",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12830",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111288",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12832",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111291",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12834",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111293",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12835",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3792",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Acceso Oeste y Cruce Graham Bell Nº0, Moreno",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.63588",
+        "lng": "-58.75966",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-acceso-oeste-y-cruce-graham-bell-n-moreno/6914",
+        "phone": "0237 405-2200",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6914,
+            "tiendeo_seo_slug": "supermayorista-vital-acceso-oeste-y-cruce-graham-bell-n-moreno"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111332",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12836",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111334",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12839",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111336",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12843",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111338",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12847",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111340",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12852",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111341",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12856",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3793",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Av Calchaquí Nº1000, Quilmes",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.737328",
+        "lng": "-58.295174",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-av-calchaqui-n-quilmes/6915",
+        "phone": " 5438 6900",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6915,
+            "tiendeo_seo_slug": "supermayorista-vital-av-calchaqui-n-quilmes"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111381",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12837",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111384",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12842",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111387",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12846",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111389",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12851",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111391",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12854",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111393",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12859",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3794",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Av. Monseñor Bufano Nº2900, San Justo",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.68216",
+        "lng": "-58.56958",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-av-monsenor-bufano-n-san-justo/6916",
+        "phone": "11 4012 9200",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6916,
+            "tiendeo_seo_slug": "supermayorista-vital-av-monsenor-bufano-n-san-justo"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111421",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12838",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111423",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12841",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111425",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12845",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111427",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12849",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111429",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12853",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111431",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12857",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3795",
+        "retailer_id": "702",
+        "city": "Resistencia",
+        "address": "RN16 Km. Nº15, Resistencia",
+        "zip": "",
+        "province": "Chaco",
+        "lat": "-27.40961",
+        "lng": "-58.98224",
+        "url": "/Tiendas/resistencia/supermayorista-vital-rn--n-resistencia/6917",
+        "phone": "0362 443-3119",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6917,
+            "tiendeo_seo_slug": "supermayorista-vital-rn--n-resistencia"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111395",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12840",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111397",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12844",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111399",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12848",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111401",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12850",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111403",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12855",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111405",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12858",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3796",
+        "retailer_id": "702",
+        "city": "Neuquén",
+        "address": "Ruta Nacional 22 Km Nº1218, Neuquén",
+        "zip": "",
+        "province": "Neuquén",
+        "lat": "-38.95572",
+        "lng": "-68.02789",
+        "url": "/Tiendas/neuquen/supermayorista-vital-ruta-nacional--n-neuquen/6919",
+        "phone": "0299 400-0200",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6919,
+            "tiendeo_seo_slug": "supermayorista-vital-ruta-nacional--n-neuquen"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111343",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12860",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111345",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12861",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111348",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12862",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111351",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12863",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111353",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12864",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111354",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12865",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3799",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Gallo Nº149, Abasto",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.60679",
+        "lng": "-58.41315",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-gallo-n-abasto/6904",
+        "phone": "011 4012-9300",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6904,
+            "tiendeo_seo_slug": "supermayorista-vital-gallo-n-abasto"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111201",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12866",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111203",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12867",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111206",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12868",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111208",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12869",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111211",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12870",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111213",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12871",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3803",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Av. Bernabé Márquez Nº969, Loma Hermosa",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.5709",
+        "lng": "-58.59419",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-av-bernabe-marquez-n-loma-hermosa/6912",
+        "phone": "011 4008-8888",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6912,
+            "tiendeo_seo_slug": "supermayorista-vital-av-bernabe-marquez-n-loma-hermosa"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111295",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12872",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111297",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12874",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111300",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12876",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111302",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12879",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111304",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12885",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111306",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12889",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3804",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Ruta 8 km. Nº35, Malvinas Argentinas",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.50634",
+        "lng": "-58.73155",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-ruta--n-malvinas-argentinas/6913",
+        "phone": "5438 6800",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6913,
+            "tiendeo_seo_slug": "supermayorista-vital-ruta--n-malvinas-argentinas"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111307",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12873",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111309",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12875",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111311",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12878",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111313",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12882",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111315",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12886",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111317",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12890",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3807",
+        "retailer_id": "702",
+        "city": "Santa Fe",
+        "address": "Ruta 11 Km. Nº477, Santa Fe",
+        "zip": "",
+        "province": "Santa Fe",
+        "lat": "-31.56034",
+        "lng": "-60.7303",
+        "url": "/Tiendas/santa-fe/supermayorista-vital-ruta--n-santa-fe/6918",
+        "phone": "0342 415-4000",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6918,
+            "tiendeo_seo_slug": "supermayorista-vital-ruta--n-santa-fe"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111433",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12877",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111435",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12880",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111437",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12884",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111439",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12887",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111442",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12891",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111444",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12893",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "3808",
+        "retailer_id": "702",
+        "city": "Posadas",
+        "address": "Ruta 12 Km. Nº6, Posadas",
+        "zip": "",
+        "province": "Misiones",
+        "lat": "-27.42252",
+        "lng": "-55.89824",
+        "url": "/Tiendas/posadas/supermayorista-vital-ruta--n-posadas/6920",
+        "phone": "0376 448-0100",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 6920,
+            "tiendeo_seo_slug": "supermayorista-vital-ruta--n-posadas"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111368",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "12881",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111370",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "12883",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111372",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "12888",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111375",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "12892",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111377",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "12894",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111379",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "12895",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27030",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Panamericana KM Nº49, Pilar",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.44098",
+        "lng": "-58.85401",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-panamericana--n-pilar/49785",
+        "phone": "0230 445-2750",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49785,
+            "tiendeo_seo_slug": "supermayorista-vital-panamericana--n-pilar"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111356",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "74556",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111358",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "74558",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111360",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "74561",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111362",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "74564",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111364",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "74568",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111366",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "74571",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27031",
+        "retailer_id": "702",
+        "city": "Buenos Aires",
+        "address": "Av. 520 Nº2650, la Plata",
+        "zip": "",
+        "province": "CABA",
+        "lat": "-34.905422",
+        "lng": "-57.997406",
+        "url": "/Tiendas/buenos-aires/supermayorista-vital-av-n-la-plata/49784",
+        "phone": "0221 410-4000",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49784,
+            "tiendeo_seo_slug": "supermayorista-vital-av-n-la-plata"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111266",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "74557",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "111268",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "74559",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "111271",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "74560",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "111274",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "74562",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "111277",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "74565",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "111279",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "74569",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "32399",
+        "retailer_id": "702",
+        "city": "Salta",
+        "address": "Av Paraguay 2259 Nº0, Salta",
+        "zip": "",
+        "province": "Salta",
+        "lat": "-24.81937",
+        "lng": "-65.42582",
+        "url": "/Tiendas/salta/supermayorista-vital-av-paraguay-n-salta/60366",
+        "phone": "0387-416-1600",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 60366,
+            "tiendeo_seo_slug": "supermayorista-vital-av-paraguay-n-salta"
+        },
+        "retailer": {
+            "id": "702",
+            "category_id": "1",
+            "name": "Supermayorista Vital",
+            "slug": "supermayorista-vital",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "189741",
+            "rank_td": "189741",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1289,
+            "synonyms": [
+                "super mayorista vital",
+                "super vital",
+                "Supermayorista Vital AR",
+                "supermayorista vital argentina",
+                "supermercado mayorista vital",
+                "supermercado vital",
+                "Vital",
+                "vital mayorista",
+                "vital super",
+                "Vital Supermayorista"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_supermayorista-vital_transparent_webp.webp?modified=1719467434",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_supermayorista-vital.png?modified=1691050541"
+        },
+        "store_hours": [
+            {
+                "id": "111407",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "85856",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "111409",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "85861",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "111411",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "85864",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "111414",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "85866",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "111417",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "85872",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "111419",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "85877",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    }
+]

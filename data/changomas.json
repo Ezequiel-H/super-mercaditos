@@ -1,0 +1,5201 @@
+[
+    {
+        "id": "2156",
+        "retailer_id": "892",
+        "city": "Buenos Aires",
+        "address": "Eva Perón 5526 y Miralla, Capital Federal",
+        "zip": "1440",
+        "province": "CABA",
+        "lat": "-34.66173",
+        "lng": "-58.48394",
+        "url": "/Tiendas/buenos-aires/changomas-eva-peron-y-miralla-capital-federal/4411",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4411,
+            "tiendeo_seo_slug": "changomas-eva-peron-y-miralla-capital-federal"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8582",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "8544",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "8552",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "8559",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "8565",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "8571",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "8576",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2157",
+        "retailer_id": "892",
+        "city": "Villa Mercedes",
+        "address": "Av juan domingo peron 825",
+        "zip": "5730",
+        "province": "San Luis",
+        "lat": "-33.68046",
+        "lng": "-65.45168",
+        "url": "/Tiendas/villa-mercedes/changomas-av-juan-domingo-peron/4418",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4418,
+            "tiendeo_seo_slug": "changomas-av-juan-domingo-peron"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8594",
+                "open": "07:30:00",
+                "close": "690",
+                "dow": "1"
+            },
+            {
+                "id": "8566",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "8573",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "8577",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "8580",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "8585",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "8588",
+                "open": "07:30:00",
+                "close": "690",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2158",
+        "retailer_id": "892",
+        "city": "José C. Paz",
+        "address": "Av. Gaspar Campos 5690 entre Juan Díaz de Solís y Pueyrredón, Partido de José C. Paz ",
+        "zip": "1665",
+        "province": "Buenos Aires",
+        "lat": "-34.52977",
+        "lng": "-58.74977",
+        "url": "/Tiendas/jose-c-paz/changomas-av-gaspar-campos-entre-juan-diaz-de-solis-y-pueyrredon-partido-de-jose-c-paz/4420",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4420,
+            "tiendeo_seo_slug": "changomas-av-gaspar-campos-entre-juan-diaz-de-solis-y-pueyrredon-partido-de-jose-c-paz"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8601",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "8578",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "8581",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "8584",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "8589",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "8592",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "8597",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2159",
+        "retailer_id": "892",
+        "city": "Monte Chingolo",
+        "address": "Boulevard de los italianos 321",
+        "zip": "1824",
+        "province": "Buenos Aires",
+        "lat": "-34.71544",
+        "lng": "-58.34903",
+        "url": "/Tiendas/monte-chingolo/changomas-boulevard-de-los-italianos/4422",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4422,
+            "tiendeo_seo_slug": "changomas-boulevard-de-los-italianos"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8615",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "8583",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "8587",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "8593",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "8599",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "8603",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "8607",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2160",
+        "retailer_id": "892",
+        "city": "Junín (Buenos Aires)",
+        "address": "Ruta 7 km. 260.9",
+        "zip": "6000",
+        "province": "Buenos Aires",
+        "lat": "-34.59827",
+        "lng": "-60.97525",
+        "url": "/Tiendas/junin/changomas-ruta/4421",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4421,
+            "tiendeo_seo_slug": "changomas-ruta"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8612",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "8586",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "8590",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "8595",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "8598",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "8602",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "8605",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2161",
+        "retailer_id": "892",
+        "city": "Claypole",
+        "address": "Lacaze 3963",
+        "zip": "1849",
+        "province": "Buenos Aires",
+        "lat": "-34.80946",
+        "lng": "-58.34333",
+        "url": "/Tiendas/claypole/changomas-lacaze/4424",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4424,
+            "tiendeo_seo_slug": "changomas-lacaze"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8622",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "8591",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "8596",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "8600",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "8604",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "8611",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "8617",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2162",
+        "retailer_id": "892",
+        "city": "Burzaco",
+        "address": "Av. Espora 2074 , Partido de Alte Brow",
+        "zip": "1846",
+        "province": "Buenos Aires",
+        "lat": "-34.81683",
+        "lng": "-58.3904",
+        "url": "/Tiendas/burzaco/changomas-av-espora-partido-de-alte-brow/4430",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4430,
+            "tiendeo_seo_slug": "changomas-av-espora-partido-de-alte-brow"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8651",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "8609",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "8618",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "8625",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "8631",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "8644",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "8648",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2163",
+        "retailer_id": "892",
+        "city": "San Vicente (Buenos Aires)",
+        "address": "Av. 25 de mayo 37 San Vicente",
+        "zip": "1865",
+        "province": "Buenos Aires",
+        "lat": "-35.02361",
+        "lng": "-58.4235",
+        "url": "/Tiendas/san-vicente-buenos-aires/changomas-av-de-mayo-san-vicente/4427",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4427,
+            "tiendeo_seo_slug": "changomas-av-de-mayo-san-vicente"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8642",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "8606",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "8614",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "8621",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "8627",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "8632",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "8637",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2164",
+        "retailer_id": "892",
+        "city": "Moreno",
+        "address": "Av. Julio Argentino Roca al 3500 entre Santos Dumont y Vasco Da Gamma, a 3 cuadras de Av. Del Libertador",
+        "zip": "1744",
+        "province": "Buenos Aires",
+        "lat": "-34.58821",
+        "lng": "-58.74512",
+        "url": "/Tiendas/moreno/changomas-av-julio-argentino-roca-al-entre-santos-dumont-y-vasco-da-gamma-a-cuadras-de-av-del-libertador/4425",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4425,
+            "tiendeo_seo_slug": "changomas-av-julio-argentino-roca-al-entre-santos-dumont-y-vasco-da-gamma-a-cuadras-de-av-del-libertador"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8645",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "8608",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "8613",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "8620",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "8626",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "8633",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "8638",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2165",
+        "retailer_id": "892",
+        "city": "San Martín",
+        "address": "Av. boulogne sur mer 700, san martin",
+        "zip": "5570",
+        "province": "Buenos Aires",
+        "lat": "-33.079876",
+        "lng": "-68.48281",
+        "url": "/Tiendas/san-martin/changomas-av-boulogne-sur-mer-san-martin/4426",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4426,
+            "tiendeo_seo_slug": "changomas-av-boulogne-sur-mer-san-martin"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8643",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "8610",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "8616",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "8623",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "8628",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "8634",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "8639",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2166",
+        "retailer_id": "892",
+        "city": "Hurlingham",
+        "address": "Av. Vergara 2950",
+        "zip": "1686",
+        "province": "Buenos Aires",
+        "lat": "-34.60756",
+        "lng": "-58.63535",
+        "url": "/Tiendas/hurlingham/changomas-av-vergara/4431",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4431,
+            "tiendeo_seo_slug": "changomas-av-vergara"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8649",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "8619",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "8624",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "8629",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "8635",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "8640",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "8646",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2167",
+        "retailer_id": "892",
+        "city": "Villa Nueva (Córdoba)",
+        "address": "Av. Carranza 980 ( entre calle Lima y Costanera )",
+        "zip": "5903",
+        "province": "Córdoba",
+        "lat": "-32.42318",
+        "lng": "-63.24329",
+        "url": "/Tiendas/villa-nueva-cordoba/changomas-av-carranza-entre-calle-lima-y-costanera/4437",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4437,
+            "tiendeo_seo_slug": "changomas-av-carranza-entre-calle-lima-y-costanera"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8653",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "1"
+            },
+            {
+                "id": "8630",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "8636",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "8641",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "8647",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "8650",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "8652",
+                "open": "08:00:00",
+                "close": "600",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2168",
+        "retailer_id": "892",
+        "city": "Córdoba",
+        "address": "Avda Fuerza Aerea Nº 4372 entre Av. Richardson y Av. Camilotti",
+        "zip": "",
+        "province": "Córdoba",
+        "lat": "-31.43183",
+        "lng": "-64.24402",
+        "url": "/Tiendas/cordoba/changomas-avda-fuerza-aerea-n-entre-av-richardson-y-av-camilotti/4438",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4438,
+            "tiendeo_seo_slug": "changomas-avda-fuerza-aerea-n-entre-av-richardson-y-av-camilotti"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8758",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "8743",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "8744",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "8745",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "8748",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "8750",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "8751",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2169",
+        "retailer_id": "892",
+        "city": "San Carlos de Bariloche",
+        "address": "Av. j.hermann e/pasaje gutierrez y calfu-co",
+        "zip": "8400",
+        "province": "Río Negro",
+        "lat": "-41.16053",
+        "lng": "-71.31947",
+        "url": "/Tiendas/san-carlos-de-bariloche/changomas-av-jhermann-epasaje-gutierrez-y-calfu--co/4441",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4441,
+            "tiendeo_seo_slug": "changomas-av-jhermann-epasaje-gutierrez-y-calfu--co"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8687",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "8654",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "8656",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "8660",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "8666",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "8673",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "8679",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2170",
+        "retailer_id": "892",
+        "city": "Los Polvorines",
+        "address": "Av. del sesquincentenario",
+        "zip": "1846",
+        "province": "Buenos Aires",
+        "lat": "-34.49809",
+        "lng": "-58.7119",
+        "url": "/Tiendas/los-polvorines/changomas-av-del-sesquincentenario/4439",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4439,
+            "tiendeo_seo_slug": "changomas-av-del-sesquincentenario"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8695",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "8655",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "8659",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "8665",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "8672",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "8680",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "8688",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2171",
+        "retailer_id": "892",
+        "city": "Posadas",
+        "address": "Av tambor de tacuari 5158/5198, posadas",
+        "zip": "3300",
+        "province": "Misiones",
+        "lat": "-27.36691",
+        "lng": "-55.92625",
+        "url": "/Tiendas/posadas/changomas-av-tambor-de-tacuari-posadas/4440",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4440,
+            "tiendeo_seo_slug": "changomas-av-tambor-de-tacuari-posadas"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8700",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "8657",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "8662",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "8668",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "8675",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "8682",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "8691",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2172",
+        "retailer_id": "892",
+        "city": "Trelew",
+        "address": "Av. perón ruta 719",
+        "zip": "9102",
+        "province": "Chubut",
+        "lat": "-43.2498",
+        "lng": "-65.29135",
+        "url": "/Tiendas/trelew/changomas-av-peron-ruta/4443",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4443,
+            "tiendeo_seo_slug": "changomas-av-peron-ruta"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8699",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "8658",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "8664",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "8669",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "8676",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "8681",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "8690",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2173",
+        "retailer_id": "892",
+        "city": "San Andrés (Tucumán)",
+        "address": "Av. Jujuy entre Democracia y P. Fernandez",
+        "zip": "4000",
+        "province": "Tucumán",
+        "lat": "-26.86615",
+        "lng": "-65.22083",
+        "url": "/Tiendas/san-andres-tucuman/changomas-av-jujuy-entre-democracia-y-p-fernandez/4444",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4444,
+            "tiendeo_seo_slug": "changomas-av-jujuy-entre-democracia-y-p-fernandez"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8705",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "8663",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "8667",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "8674",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "8683",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "8689",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "8698",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "2174",
+        "retailer_id": "892",
+        "city": "Cipolletti",
+        "address": "Bolivia 1169 esq. primeros pobladores",
+        "zip": "8324",
+        "province": "Río Negro",
+        "lat": "-38.93183",
+        "lng": "-67.98387",
+        "url": "/Tiendas/cipolletti/changomas-bolivia-esq-primeros-pobladores/4442",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 4442,
+            "tiendeo_seo_slug": "changomas-bolivia-esq-primeros-pobladores"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "8706",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "8661",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "8671",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "8678",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "8684",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "8694",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "8702",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27046",
+        "retailer_id": "892",
+        "city": "Martín Coronado",
+        "address": "Av. Presidente Juan Domingo Perón Nº9150",
+        "zip": "1687",
+        "province": "Buenos Aires",
+        "lat": "-34.57496",
+        "lng": "-58.61159",
+        "url": "/Tiendas/martin-coronado/changomas-av-presidente-juan-domingo-peron-n/49800",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49800,
+            "tiendeo_seo_slug": "changomas-av-presidente-juan-domingo-peron-n"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74658",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "74618",
+                "open": "08:00:00",
+                "close": "810",
+                "dow": "2"
+            },
+            {
+                "id": "74622",
+                "open": "08:00:00",
+                "close": "810",
+                "dow": "3"
+            },
+            {
+                "id": "74632",
+                "open": "08:00:00",
+                "close": "810",
+                "dow": "4"
+            },
+            {
+                "id": "74640",
+                "open": "08:00:00",
+                "close": "810",
+                "dow": "5"
+            },
+            {
+                "id": "74645",
+                "open": "08:00:00",
+                "close": "810",
+                "dow": "6"
+            },
+            {
+                "id": "74655",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27047",
+        "retailer_id": "892",
+        "city": "Morón",
+        "address": "Don Bosco 5635",
+        "zip": "1708",
+        "province": "Buenos Aires",
+        "lat": "-34.689",
+        "lng": "-58.62641",
+        "url": "/Tiendas/moron/changomas-don-bosco/49806",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49806,
+            "tiendeo_seo_slug": "changomas-don-bosco"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74662",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "74638",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "74643",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "74651",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "74654",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "74657",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "74660",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27048",
+        "retailer_id": "892",
+        "city": "Temperley",
+        "address": "Cerrito s/n esquina r. dario",
+        "zip": "1832",
+        "province": "Buenos Aires",
+        "lat": "-34.75753",
+        "lng": "-58.37758",
+        "url": "/Tiendas/temperley/changomas-cerrito-sn-esquina-r-dario/49808",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49808,
+            "tiendeo_seo_slug": "changomas-cerrito-sn-esquina-r-dario"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74695",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "74663",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "74666",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "74669",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "74671",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "74678",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "74686",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27049",
+        "retailer_id": "892",
+        "city": "Pergamino",
+        "address": "Boulevard Dardo Rocha Nº 280, entre San luis y Catamarca",
+        "zip": "2702",
+        "province": "Buenos Aires",
+        "lat": "-33.89407",
+        "lng": "-60.56476",
+        "url": "/Tiendas/pergamino/changomas-boulevard-dardo-rocha-n-entre-san-luis-y-catamarca/49810",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49810,
+            "tiendeo_seo_slug": "changomas-boulevard-dardo-rocha-n-entre-san-luis-y-catamarca"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74704",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "74664",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "74667",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "74670",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "74679",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "74688",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "74697",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27050",
+        "retailer_id": "892",
+        "city": "Goya",
+        "address": "Av. Sarmiento 721 esquina calle soto",
+        "zip": "3450",
+        "province": "Corrientes",
+        "lat": "-29.15526",
+        "lng": "-59.27258",
+        "url": "/Tiendas/goya/changomas-av-sarmiento-esquina-calle-soto/49813",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49813,
+            "tiendeo_seo_slug": "changomas-av-sarmiento-esquina-calle-soto"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74706",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "74665",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "74668",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "74673",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "74677",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "74685",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "74690",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27051",
+        "retailer_id": "892",
+        "city": "Corrientes",
+        "address": "Av.maipú 2803 y los condores",
+        "zip": "3400",
+        "province": "Corrientes",
+        "lat": "-27.50038",
+        "lng": "-58.81272",
+        "url": "/Tiendas/corrientes/changomas-avmaipu-y-los-condores/49812",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49812,
+            "tiendeo_seo_slug": "changomas-avmaipu-y-los-condores"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74715",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "74675",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "74680",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "74689",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "74696",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "74700",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "74705",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27052",
+        "retailer_id": "892",
+        "city": "Tigre",
+        "address": "Colombia 1212 el talar",
+        "zip": "1617",
+        "province": "Buenos Aires",
+        "lat": "-34.47442",
+        "lng": "-58.66213",
+        "url": "/Tiendas/tigre/changomas-colombia-el-talar/49807",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49807,
+            "tiendeo_seo_slug": "changomas-colombia-el-talar"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74720",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "74672",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "74676",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "74687",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "74699",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "74709",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "74717",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27053",
+        "retailer_id": "892",
+        "city": "General Pico",
+        "address": "Av. 319 y Calle 308 – COLECTORA Ruta Nac 101",
+        "zip": "6360",
+        "province": "La Pampa",
+        "lat": "-35.6622",
+        "lng": "-63.7829",
+        "url": "/Tiendas/general-pico/changomas-av-y-calle-%E2%80%93-colectora-ruta-nac/49818",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49818,
+            "tiendeo_seo_slug": "changomas-av-y-calle-%E2%80%93-colectora-ruta-nac"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74674",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "74681",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "74693",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "74707",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "74716",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "74719",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27054",
+        "retailer_id": "892",
+        "city": "Presidencia Roque Sáenz Peña",
+        "address": "Interseccion de las Av. Juan Manuel de Rosas (101) y calle Arturo Illia (128)",
+        "zip": "3700",
+        "province": "Chaco",
+        "lat": "-26.79198",
+        "lng": "-60.4529",
+        "url": "/Tiendas/presidencia-roque-saenz-pena/changomas-interseccion-de-las-av-juan-manuel-de-rosas-y-calle-arturo-illia/49814",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49814,
+            "tiendeo_seo_slug": "changomas-interseccion-de-las-av-juan-manuel-de-rosas-y-calle-arturo-illia"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74684",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "74692",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "74702",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "74712",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "74722",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "74728",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27055",
+        "retailer_id": "892",
+        "city": "Formosa",
+        "address": "Av. maradona y somacal",
+        "zip": "3600",
+        "province": "Formosa",
+        "lat": "-26.15112",
+        "lng": "-58.16117",
+        "url": "/Tiendas/formosa/changomas-av-maradona-y-somacal/49816",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49816,
+            "tiendeo_seo_slug": "changomas-av-maradona-y-somacal"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74725",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "74683",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "74694",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "74701",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "74710",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "74713",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "74721",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27056",
+        "retailer_id": "892",
+        "city": "San Pedro de Jujuy",
+        "address": "San gabriel 712",
+        "zip": "4500",
+        "province": "Jujuy",
+        "lat": "-24.22549",
+        "lng": "-64.86011",
+        "url": "/Tiendas/san-pedro-de-jujuy/changomas-san-gabriel/49817",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49817,
+            "tiendeo_seo_slug": "changomas-san-gabriel"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74730",
+                "open": "08:00:00",
+                "close": "360",
+                "dow": "1"
+            },
+            {
+                "id": "74682",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "74691",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "74703",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "74711",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "74723",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "74726",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27057",
+        "retailer_id": "892",
+        "city": "Santa Rosa (La Pampa)",
+        "address": "Colectora de av. pte peron y ultracán",
+        "zip": "6300",
+        "province": "La Pampa",
+        "lat": "-36.63523",
+        "lng": "-64.31481",
+        "url": "/Tiendas/santa-rosa-la-pampa/changomas-colectora-de-av-pte-peron-y-ultracan/49819",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49819,
+            "tiendeo_seo_slug": "changomas-colectora-de-av-pte-peron-y-ultracan"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74698",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "74708",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "74714",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "74718",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "74724",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "74727",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27058",
+        "retailer_id": "892",
+        "city": "General Roca (Río Negro)",
+        "address": "Chulavista 1550",
+        "zip": "8332",
+        "province": "Río Negro",
+        "lat": "-39.03791",
+        "lng": "-67.5889",
+        "url": "/Tiendas/general-roca-rio-negro/changomas-chulavista/49820",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49820,
+            "tiendeo_seo_slug": "changomas-chulavista"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74755",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "74729",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "74732",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "74734",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "74736",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "74740",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "74745",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27059",
+        "retailer_id": "892",
+        "city": "Concepción (Tucumán)",
+        "address": "Av Güemes y Av Francia",
+        "zip": "4146",
+        "province": "Tucumán",
+        "lat": "-27.34998",
+        "lng": "-65.58947",
+        "url": "/Tiendas/concepcion-tucuman/changomas-av-guemes-y-av-francia/49821",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49821,
+            "tiendeo_seo_slug": "changomas-av-guemes-y-av-francia"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74761",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "74731",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "74733",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "74738",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "74741",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "74746",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "74751",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27060",
+        "retailer_id": "892",
+        "city": "San Juan (San Juan)",
+        "address": "Av. Doctor Ortega y Las Vicentinas",
+        "zip": "5425",
+        "province": "San Juan",
+        "lat": "-31.57501",
+        "lng": "-68.54345",
+        "url": "/Tiendas/san-juan/changomas-av-doctor-ortega-y-las-vicentinas/49822",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49822,
+            "tiendeo_seo_slug": "changomas-av-doctor-ortega-y-las-vicentinas"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74770",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "74735",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "74739",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "74742",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "74749",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "74756",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "74764",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27061",
+        "retailer_id": "892",
+        "city": "Chimbas",
+        "address": "Av. benavidez 1050 esquina colon",
+        "zip": "5413",
+        "province": "San Juan",
+        "lat": "-31.51167",
+        "lng": "-68.54569",
+        "url": "/Tiendas/chimbas/changomas-av-benavidez-esquina-colon/49823",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49823,
+            "tiendeo_seo_slug": "changomas-av-benavidez-esquina-colon"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74784",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "74737",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "74743",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "74747",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "74754",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "74763",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "74777",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27062",
+        "retailer_id": "892",
+        "city": "Puerto Madryn",
+        "address": "Juan b justo 1885",
+        "zip": "9120",
+        "province": "Chubut",
+        "lat": "-42.7849",
+        "lng": "-65.03423",
+        "url": "/Tiendas/puerto-madryn/changomas-juan-b-justo/49825",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49825,
+            "tiendeo_seo_slug": "changomas-juan-b-justo"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74789",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "74748",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "74753",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "74759",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "74767",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "74775",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "74781",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27063",
+        "retailer_id": "892",
+        "city": "San Ramón de la Nueva Orán",
+        "address": "Av. pueyrredón y av. palacios",
+        "zip": "4530",
+        "province": "Salta",
+        "lat": "-23.145",
+        "lng": "-64.32589",
+        "url": "/Tiendas/san-ramon-de-la-nueva-oran/changomas-av-pueyrredon-y-av-palacios/49827",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49827,
+            "tiendeo_seo_slug": "changomas-av-pueyrredon-y-av-palacios"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74778",
+                "open": "08:00:00",
+                "close": "900",
+                "dow": "1"
+            },
+            {
+                "id": "74744",
+                "open": "08:00:00",
+                "close": "900",
+                "dow": "2"
+            },
+            {
+                "id": "74750",
+                "open": "08:00:00",
+                "close": "900",
+                "dow": "3"
+            },
+            {
+                "id": "74758",
+                "open": "08:00:00",
+                "close": "900",
+                "dow": "4"
+            },
+            {
+                "id": "74765",
+                "open": "08:00:00",
+                "close": "900",
+                "dow": "5"
+            },
+            {
+                "id": "74771",
+                "open": "08:00:00",
+                "close": "900",
+                "dow": "6"
+            },
+            {
+                "id": "74776",
+                "open": "08:00:00",
+                "close": "900",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27064",
+        "retailer_id": "892",
+        "city": "Posadas",
+        "address": "Av . Alicia Moreau de Justo y Av. Cabo de Hornos",
+        "zip": "3300",
+        "province": "Misiones",
+        "lat": "-27.42506",
+        "lng": "-55.93224",
+        "url": "/Tiendas/posadas/changomas-av-alicia-moreau-de-justo-y-av-cabo-de-hornos/49824",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49824,
+            "tiendeo_seo_slug": "changomas-av-alicia-moreau-de-justo-y-av-cabo-de-hornos"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74791",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "74760",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "74769",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "74774",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "74780",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "74785",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "74788",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27065",
+        "retailer_id": "892",
+        "city": "Tartagal (Salta)",
+        "address": "Paraguay y ruta nac. n 34",
+        "zip": "4560",
+        "province": "Salta",
+        "lat": "-22.51363",
+        "lng": "-63.79219",
+        "url": "/Tiendas/tartagal-salta/changomas-paraguay-y-ruta-nac-n/49829",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49829,
+            "tiendeo_seo_slug": "changomas-paraguay-y-ruta-nac-n"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74790",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "74752",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "74762",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "74768",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "74772",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "74782",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "74786",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "27066",
+        "retailer_id": "892",
+        "city": "Santiago del Estero",
+        "address": "Colectora Circunvalación y Av. Contreras",
+        "zip": "4200",
+        "province": "Santiago del Estero",
+        "lat": "-27.84225",
+        "lng": "-64.26218",
+        "url": "/Tiendas/santiago-del-estero/changomas-colectora-circunvalacion-y-av-contreras/49830",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 49830,
+            "tiendeo_seo_slug": "changomas-colectora-circunvalacion-y-av-contreras"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "74792",
+                "open": "08:00:00",
+                "close": "540",
+                "dow": "1"
+            },
+            {
+                "id": "74757",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "74766",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "74773",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "74779",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "74783",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "74787",
+                "open": "08:00:00",
+                "close": "540",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "29850",
+        "retailer_id": "892",
+        "city": "Clorinda",
+        "address": "av. tucumán 201 y bme. mitre",
+        "zip": "3610",
+        "province": "Formosa",
+        "lat": "-25.2873",
+        "lng": "-57.72402",
+        "url": "/Tiendas/clorinda/changomas-av-tucuman-y-bme-mitre/54981",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 54981,
+            "tiendeo_seo_slug": "changomas-av-tucuman-y-bme-mitre"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "82183",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "82166",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "82167",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "82170",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "82172",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "82176",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "82180",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "29851",
+        "retailer_id": "892",
+        "city": "Viedma",
+        "address": "Tierra del fuego 514 entre av. cagliero y corrientes",
+        "zip": "8500",
+        "province": "Río Negro",
+        "lat": "-40.82516",
+        "lng": "-62.98365",
+        "url": "/Tiendas/viedma/changomas-tierra-del-fuego-entre-av-cagliero-y-corrientes/54980",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 54980,
+            "tiendeo_seo_slug": "changomas-tierra-del-fuego-entre-av-cagliero-y-corrientes"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "82184",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "82168",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "82171",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "82174",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "82177",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "82179",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "82181",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31587",
+        "retailer_id": "892",
+        "city": "La Rioja",
+        "address": "Av.Ortiz de Ocampo 1127 y Ejército Argentino",
+        "zip": "5300",
+        "province": "La Rioja",
+        "lat": "-29.42806",
+        "lng": "-66.86263",
+        "url": "/Tiendas/la-rioja/changomas-avortiz-de-ocampo-y-ejercito-argentino/58763",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58763,
+            "tiendeo_seo_slug": "changomas-avortiz-de-ocampo-y-ejercito-argentino"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84457",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "84459",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "84461",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "84466",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "84471",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "84479",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31588",
+        "retailer_id": "892",
+        "city": "Salta",
+        "address": "Av Paraguay 1450 y Av Bélgica",
+        "zip": "4400",
+        "province": "Salta",
+        "lat": "-24.80478",
+        "lng": "-65.42078",
+        "url": "/Tiendas/salta/changomas-av-paraguay-y-av-belgica/58773",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58773,
+            "tiendeo_seo_slug": "changomas-av-paraguay-y-av-belgica"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84492",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "84458",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "84460",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "84462",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "84467",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "84472",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "84477",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31589",
+        "retailer_id": "892",
+        "city": "Santiago del Estero",
+        "address": "Av belgrano sur 2663",
+        "zip": "4200",
+        "province": "Santiago del Estero",
+        "lat": "-27.80932",
+        "lng": "-64.24971",
+        "url": "/Tiendas/santiago-del-estero/changomas-av-belgrano-sur/58774",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58774,
+            "tiendeo_seo_slug": "changomas-av-belgrano-sur"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84494",
+                "open": "08:00:00",
+                "close": "540",
+                "dow": "1"
+            },
+            {
+                "id": "84463",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "84468",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "84473",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "84478",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "84483",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "84488",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31590",
+        "retailer_id": "892",
+        "city": "Neuquén",
+        "address": "Av.Belgrano 2735",
+        "zip": "8300",
+        "province": "Neuquén",
+        "lat": "-38.95094",
+        "lng": "-68.0976",
+        "url": "/Tiendas/neuquen/changomas-avbelgrano/58779",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58779,
+            "tiendeo_seo_slug": "changomas-avbelgrano"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84496",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "84464",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "84469",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "84474",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "84480",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "84485",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "84490",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31591",
+        "retailer_id": "892",
+        "city": "Maipú (Mendoza)",
+        "address": "Maza 470, Maipú",
+        "zip": "5515",
+        "province": "Mendoza",
+        "lat": "-32.97854",
+        "lng": "-68.79801",
+        "url": "/Tiendas/maipu/changomas-maza-maipu/58781",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58781,
+            "tiendeo_seo_slug": "changomas-maza-maipu"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84499",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "84465",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "84470",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "84476",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "84484",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "84489",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "84495",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31592",
+        "retailer_id": "892",
+        "city": "Banda del Río Salí",
+        "address": "Guatemala y San Martín, Banda Rio Sali",
+        "zip": "4109",
+        "province": "Tucumán",
+        "lat": "-26.83744",
+        "lng": "-65.16926",
+        "url": "/Tiendas/banda-del-rio-sali/changomas-guatemala-y-san-martin-banda-rio-sali/58784",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58784,
+            "tiendeo_seo_slug": "changomas-guatemala-y-san-martin-banda-rio-sali"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84502",
+                "open": "09:00:00",
+                "close": "300",
+                "dow": "1"
+            },
+            {
+                "id": "84475",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "2"
+            },
+            {
+                "id": "84481",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "3"
+            },
+            {
+                "id": "84486",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "4"
+            },
+            {
+                "id": "84491",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "5"
+            },
+            {
+                "id": "84497",
+                "open": "09:00:00",
+                "close": "660",
+                "dow": "6"
+            },
+            {
+                "id": "84500",
+                "open": "08:00:00",
+                "close": "420",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31593",
+        "retailer_id": "892",
+        "city": "La Pampa",
+        "address": "Av. Circunvalación Santiago Marzo 1550, villa Alonso Norte",
+        "zip": "6300",
+        "province": "La Pampa",
+        "lat": "-36.60312",
+        "lng": "-64.27056",
+        "url": "/Tiendas/la-pampa/changomas-av-circunvalacion-santiago-marzo-villa-alonso-norte/58780",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58780,
+            "tiendeo_seo_slug": "changomas-av-circunvalacion-santiago-marzo-villa-alonso-norte"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84482",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "84487",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "84493",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "84498",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "84501",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "84503",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31594",
+        "retailer_id": "892",
+        "city": "Formosa",
+        "address": "Av. Gunitsky 3636 entre Av. J. de Pueyrredón y Brandsen",
+        "zip": "3600",
+        "province": "Formosa",
+        "lat": "-26.19612",
+        "lng": "-58.20274",
+        "url": "/Tiendas/formosa/changomas-av-gunitsky-entre-av-j-de-pueyrredon-y-brandsen/58796",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58796,
+            "tiendeo_seo_slug": "changomas-av-gunitsky-entre-av-j-de-pueyrredon-y-brandsen"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84531",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "84504",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "84505",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "84506",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "84511",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "84516",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "84524",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31595",
+        "retailer_id": "892",
+        "city": "Salta",
+        "address": "Av. fuerza aerea s/n esquina aguas blancas",
+        "zip": "4400",
+        "province": "Salta",
+        "lat": "-24.7261",
+        "lng": "-65.40336",
+        "url": "/Tiendas/salta/changomas-av-fuerza-aerea-sn-esquina-aguas-blancas/58798",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58798,
+            "tiendeo_seo_slug": "changomas-av-fuerza-aerea-sn-esquina-aguas-blancas"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84543",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "84507",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "84510",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "84513",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "84520",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "84525",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "84538",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31597",
+        "retailer_id": "892",
+        "city": "San Salvador (Jujuy)",
+        "address": "Riobamba y Ruta 9",
+        "zip": "4600",
+        "province": "Jujuy",
+        "lat": "-24.21083",
+        "lng": "-65.28867",
+        "url": "/Tiendas/san-salvador-jujuy/changomas-riobamba-y-ruta/58785",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58785,
+            "tiendeo_seo_slug": "changomas-riobamba-y-ruta"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84554",
+                "open": "08:00:00",
+                "close": "360",
+                "dow": "1"
+            },
+            {
+                "id": "84508",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "84515",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "84519",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "84530",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "84537",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "84544",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31598",
+        "retailer_id": "892",
+        "city": "San Fernando del Valle de Catamarca",
+        "address": "Av.Acosta Villafañe 2420",
+        "zip": "4700",
+        "province": "Catamarca",
+        "lat": "-28.46688",
+        "lng": "-65.75465",
+        "url": "/Tiendas/san-fernando-del-valle-de-catamarca/changomas-avacosta-villafane/58782",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58782,
+            "tiendeo_seo_slug": "changomas-avacosta-villafane"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84551",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "84509",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "84512",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "84518",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "84526",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "84535",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "84549",
+                "open": "07:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "31599",
+        "retailer_id": "892",
+        "city": "Paraná",
+        "address": "Av. Blas Parera 1152",
+        "zip": "3100",
+        "province": "Entre Ríos",
+        "lat": "-31.74225",
+        "lng": "-60.49327",
+        "url": "/Tiendas/parana/changomas-av-blas-parera/58788",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 58788,
+            "tiendeo_seo_slug": "changomas-av-blas-parera"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "84552",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "84514",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "84517",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "84523",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "84532",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "84541",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "84546",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "32393",
+        "retailer_id": "892",
+        "city": "González Catán",
+        "address": "Ruta 3 n° 14446, La Matan",
+        "zip": "B1758",
+        "province": "Buenos Aires",
+        "lat": "-34.76318",
+        "lng": "-58.61912",
+        "url": "/Tiendas/gonzalez-catan/changomas-ruta-n%C2%B0-la-matan/60361",
+        "phone": "0800 555 2426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 60361,
+            "tiendeo_seo_slug": "changomas-ruta-n%C2%B0-la-matan"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "85817",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "85770",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "85780",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "85788",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "85795",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "85803",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "85809",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "32427",
+        "retailer_id": "892",
+        "city": "Moreno",
+        "address": "Martinez Melo 151 (Es la entrada al shopping y estacionamiento)",
+        "zip": "1744",
+        "province": "Buenos Aires",
+        "lat": "-34.65151",
+        "lng": "-58.79347",
+        "url": "/Tiendas/moreno/changomas-martinez-melo-es-la-entrada-al-shopping-y-estacionamiento/60411",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 60411,
+            "tiendeo_seo_slug": "changomas-martinez-melo-es-la-entrada-al-shopping-y-estacionamiento"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "86058",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "86030",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "86037",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "86043",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "86048",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "86050",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "86054",
+                "open": "07:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "35147",
+        "retailer_id": "892",
+        "city": "Moreno",
+        "address": "Av. Derqui 5602",
+        "zip": "C1407",
+        "province": "Buenos Aires",
+        "lat": "-34.53633",
+        "lng": "-58.79851",
+        "url": "/Tiendas/moreno/changomas-av-derqui/63369",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 63369,
+            "tiendeo_seo_slug": "changomas-av-derqui"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "87430",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "1"
+            },
+            {
+                "id": "87389",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "87398",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "87406",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "87412",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "87418",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "87425",
+                "open": "08:00:00",
+                "close": "660",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "35456",
+        "retailer_id": "892",
+        "city": "Córdoba",
+        "address": "Av. Donato Alvarez (altura 8600, según informe de transito) entre las calles Tipayante y Malalco – Barrio UOCRA",
+        "zip": "",
+        "province": "Córdoba",
+        "lat": "-31.32357",
+        "lng": "-64.26859",
+        "url": "/Tiendas/cordoba/changomas-av-donato-alvarez-altura-segun-informe-de-transito-entre-las-calles-tipayante-y-malalco-%E2%80%93-barrio-uocra/63721",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 63721,
+            "tiendeo_seo_slug": "changomas-av-donato-alvarez-altura-segun-informe-de-transito-entre-las-calles-tipayante-y-malalco-%E2%80%93-barrio-uocra"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "89088",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "89052",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "89055",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "89061",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "89072",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "89079",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "89083",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "35457",
+        "retailer_id": "892",
+        "city": "San Martín",
+        "address": "Estrada 3072/82/84",
+        "zip": "",
+        "province": "Buenos Aires",
+        "lat": "-34.57417",
+        "lng": "-58.53042",
+        "url": "/Tiendas/san-martin/changomas-estrada/63753",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 63753,
+            "tiendeo_seo_slug": "changomas-estrada"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "89091",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "89058",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "89065",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "89073",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "89078",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "89082",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "89086",
+                "open": "07:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "35460",
+        "retailer_id": "892",
+        "city": "Caseros",
+        "address": "Av.Gral Justo Jose de Urquiza 4342",
+        "zip": "",
+        "province": "Buenos Aires",
+        "lat": "-34.60653",
+        "lng": "-58.55527",
+        "url": "/Tiendas/caseros/changomas-avgral-justo-jose-de-urquiza/63770",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 63770,
+            "tiendeo_seo_slug": "changomas-avgral-justo-jose-de-urquiza"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "89093",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "1"
+            },
+            {
+                "id": "89070",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "2"
+            },
+            {
+                "id": "89075",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "3"
+            },
+            {
+                "id": "89081",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "4"
+            },
+            {
+                "id": "89085",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "5"
+            },
+            {
+                "id": "89089",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "6"
+            },
+            {
+                "id": "89092",
+                "open": "08:00:00",
+                "close": "720",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "35536",
+        "retailer_id": "892",
+        "city": "Hurlingham",
+        "address": "Av. Villegas 2750 ( esquina Malaspina )",
+        "zip": "",
+        "province": "Buenos Aires",
+        "lat": "-34.5873",
+        "lng": "-58.66367",
+        "url": "/Tiendas/hurlingham/changomas-av-villegas-esquina-malaspina/63892",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 63892,
+            "tiendeo_seo_slug": "changomas-av-villegas-esquina-malaspina"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "89122",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "89110",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "89111",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "89112",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "89114",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "89117",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "89120",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "40620",
+        "retailer_id": "892",
+        "city": "San Miguel de Tucumán",
+        "address": "Av. Ejército del Nte. 2324",
+        "zip": "4000",
+        "province": "Tucumán",
+        "lat": "-26.79393",
+        "lng": "-65.22464",
+        "url": "/Tiendas/san-miguel-de-tucuman/changomas-av-ejercito-del-nte/69586",
+        "phone": "08005552426",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 69586,
+            "tiendeo_seo_slug": "changomas-av-ejercito-del-nte"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "103434",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "1"
+            },
+            {
+                "id": "103426",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "2"
+            },
+            {
+                "id": "103427",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "3"
+            },
+            {
+                "id": "103429",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "4"
+            },
+            {
+                "id": "103431",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "5"
+            },
+            {
+                "id": "103432",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "6"
+            },
+            {
+                "id": "103433",
+                "open": "08:00:00",
+                "close": "840",
+                "dow": "7"
+            }
+        ]
+    },
+    {
+        "id": "40895",
+        "retailer_id": "892",
+        "city": "Comodoro Rivadavia",
+        "address": "Ruta nacional 3, Km. 4, frente a avenida Tehuelches, barrio 25 de Mayo",
+        "zip": "",
+        "province": "Chubut",
+        "lat": "-45.82653",
+        "lng": "-67.46641",
+        "url": "/Tiendas/comodoro-rivadavia/changomas-ruta-nacional--frente-a-avenida-tehuelches-barrio-de-mayo/69864",
+        "phone": "08008889256",
+        "fax": "",
+        "extras": {
+            "tiendeo_id": 69864,
+            "tiendeo_seo_slug": "changomas-ruta-nacional--frente-a-avenida-tehuelches-barrio-de-mayo"
+        },
+        "retailer": {
+            "id": "892",
+            "category_id": "1",
+            "name": "Changomas",
+            "slug": "changomas",
+            "has_adv": true,
+            "is_brand": false,
+            "rank": "525060",
+            "rank_td": "525060",
+            "show_local_templates": true,
+            "url_path": "ofertas-catalogos",
+            "tiendeo_id": 1197,
+            "synonyms": [
+                "chango mas",
+                "chango mas ar",
+                "chango mas argentina",
+                "Changomas AR",
+                "changomas argentina"
+            ],
+            "logo_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/logo_changomas_transparent_webp.webp?modified=1719468703",
+            "marker_url": "https://d1h08qwp2t1dnu.cloudfront.net/assets/media/es_ar/images/catene/segnalino_web_changomas.png?modified=1690390263"
+        },
+        "store_hours": [
+            {
+                "id": "104466",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "1"
+            },
+            {
+                "id": "104450",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "2"
+            },
+            {
+                "id": "104451",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "3"
+            },
+            {
+                "id": "104452",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "4"
+            },
+            {
+                "id": "104453",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "5"
+            },
+            {
+                "id": "104456",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "6"
+            },
+            {
+                "id": "104460",
+                "open": "08:00:00",
+                "close": "780",
+                "dow": "7"
+            }
+        ]
+    }
+]

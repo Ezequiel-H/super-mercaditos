@@ -60,6 +60,58 @@
             transform: scale(1.2);
         }
         
+        .control-group input[type="number"],
+        .control-group input[type="month"] {
+            padding: 6px 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .control-group select {
+            padding: 6px 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            background: white;
+        }
+        
+        .control-group button {
+            transition: all 0.3s ease;
+        }
+        
+        .control-group button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        
+        .filters-section {
+            border-top: 1px solid #dee2e6;
+            margin-top: 15px;
+            padding-top: 15px;
+        }
+        
+        .filters-section h3 {
+            margin: 0 0 10px 0;
+            color: #495057;
+            font-size: 1.1em;
+        }
+        
+        .active-filters {
+            background: #e8f5e8;
+            border: 1px solid #4caf50;
+            border-radius: 4px;
+            padding: 8px 12px;
+            margin: 10px 0;
+            font-size: 0.9em;
+            color: #2e7d32;
+            display: none;
+        }
+        
+        .active-filters.show {
+            display: block;
+        }
+        
         .stats {
             background: #f8f9fa;
             padding: 15px;
@@ -113,6 +165,7 @@
         
         .legend-color.shops { background-color: #e74c3c; }
         .legend-color.supermarkets { background-color: #3498db; }
+        .legend-color.circles { background-color: #3498db; }
         
         .loading {
             position: absolute;
@@ -157,10 +210,57 @@
             <input type="checkbox" id="showSupermarkets" checked>
             <label for="showSupermarkets">Mostrar Supermercados</label>
         </div>
+        
+        <!-- Filtros para tiendas -->
+        <div class="filters-section">
+            <h3>Filtros de Tiendas</h3>
+            <p style="margin: 0 0 15px 0; color: #666; font-size: 0.9em;">
+                💡 Filtra las tiendas por cantidad de pedidos y fecha de última compra
+            </p>
+            <div class="active-filters" id="activeFilters">
+                <strong>Filtros activos:</strong> <span id="activeFiltersText"></span>
+            </div>
+            <div class="control-group">
+                <label for="minOrders">Pedidos mínimos:</label>
+                <input type="number" id="minOrders" min="0" placeholder="0" style="width: 80px;">
+            </div>
+            <div class="control-group">
+                <label for="maxOrders">Pedidos máximos:</label>
+                <input type="number" id="maxOrders" min="0" placeholder="∞" style="width: 80px;">
+            </div>
+            <div class="control-group">
+                <label for="lastOrderDate">Última compra desde:</label>
+                <input type="month" id="lastOrderDate" style="width: 140px;">
+            </div>
+            <div class="control-group">
+                <button id="applyFilters" style="background: #667eea; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Aplicar Filtros</button>
+                <button id="clearFilters" style="background: #95a5a6; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Limpiar</button>
+            </div>
+        </div>
+        
+        <!-- Filtros de distancia a supermercados -->
+        <div class="filters-section">
+            <h3>Filtros de Distancia a Supermercados</h3>
+            <p style="margin: 0 0 15px 0; color: #666; font-size: 0.9em;">
+                🏪 Filtra las tiendas según su proximidad a supermercados (radio de 1km)
+            </p>
+            <div class="control-group">
+                <input type="checkbox" id="showSupermarketCircles" checked>
+                <label for="showSupermarketCircles">Mostrar círculos de 1km</label>
+            </div>
+            <div class="control-group">
+                <label for="distanceFilter">Filtrar tiendas:</label>
+                <select id="distanceFilter" style="padding: 6px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;">
+                    <option value="all">Todas las tiendas</option>
+                    <option value="inside">Solo dentro de círculos</option>
+                    <option value="outside">Solo fuera de círculos</option>
+                </select>
+            </div>
+        </div>
     </div>
     
     <div class="stats">
-        <span class="shops-count">Tiendas: <span id="shopsCount">0</span></span>
+        <span class="shops-count">Tiendas: <span id="shopsCount">0</span> / <span id="totalShopsCount">0</span></span>
         <span class="supermarkets-count">Supermercados: <span id="supermarketsCount">0</span></span>
     </div>
     
@@ -174,6 +274,10 @@
         <div class="legend-item">
             <div class="legend-color supermarkets"></div>
             <span>Supermercados</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color circles"></div>
+            <span>Círculos de 1km</span>
         </div>
     </div>
     

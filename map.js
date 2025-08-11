@@ -9,6 +9,15 @@ let filteredShopsData = [];
 let currentFilters = {
     minOrders: 0,
     maxOrders: null,
+    minConfirmedOrders: 0,
+    maxUnconfirmedOrders: null,
+    minUniqueClients: 0,
+    maxUniqueClients: null,
+    minNewClients: 0,
+    minNewClientsPct: 0,
+    minAvgTicket: 0,
+    maxAvgTicket: null,
+    minAvgOrdersPerClient: 0,
     lastOrderDate: null,
     distanceFilter: 'all'
 };
@@ -39,9 +48,18 @@ function initMap() {
     document.getElementById('clearFilters').addEventListener('click', clearFilters);
     document.getElementById('distanceFilter').addEventListener('change', updateDistanceFilter);
     
-    // Set up event listeners for filter inputs
+    // Set up event listeners for all filter inputs
     document.getElementById('minOrders').addEventListener('input', updateFilters);
     document.getElementById('maxOrders').addEventListener('input', updateFilters);
+    document.getElementById('minConfirmedOrders').addEventListener('input', updateFilters);
+    document.getElementById('maxUnconfirmedOrders').addEventListener('input', updateFilters);
+    document.getElementById('minUniqueClients').addEventListener('input', updateFilters);
+    document.getElementById('maxUniqueClients').addEventListener('input', updateFilters);
+    document.getElementById('minNewClients').addEventListener('input', updateFilters);
+    document.getElementById('minNewClientsPct').addEventListener('input', updateFilters);
+    document.getElementById('minAvgTicket').addEventListener('input', updateFilters);
+    document.getElementById('maxAvgTicket').addEventListener('input', updateFilters);
+    document.getElementById('minAvgOrdersPerClient').addEventListener('input', updateFilters);
     document.getElementById('lastOrderDate').addEventListener('input', updateFilters);
     
     // Load data
@@ -51,11 +69,22 @@ function initMap() {
 // Load all data
 async function loadData() {
     try {
+        console.log('🚀 Iniciando carga de datos...');
+        
         // Load shops data
+        console.log('📊 Cargando datos de tiendas...');
         const shopsResponse = await fetch('shops.json');
+        console.log('✅ Respuesta de tiendas recibida:', shopsResponse.status, shopsResponse.statusText);
+        
+        if (!shopsResponse.ok) {
+            throw new Error(`Error HTTP: ${shopsResponse.status}`);
+        }
+        
         shopsData = await shopsResponse.json();
+        console.log('✅ Datos de tiendas cargados:', shopsData.length, 'tiendas');
         
         // Load supermarkets data from all chains
+        console.log('🛒 Cargando datos de supermercados...');
         const supermarketFiles = [
             'data/disco.json',
             'data/jumbo.json',
@@ -69,18 +98,30 @@ async function loadData() {
             'data/coto.json'
         ];
         
+        supermarketsData = [];
         for (const file of supermarketFiles) {
             try {
+                console.log(`📁 Cargando ${file}...`);
                 const response = await fetch(file);
-                const data = await response.json();
-                supermarketsData = supermarketsData.concat(data);
+                if (response.ok) {
+                    const data = await response.json();
+                    supermarketsData = supermarketsData.concat(data);
+                    console.log(`✅ ${file} cargado:`, data.length, 'supermercados');
+                } else {
+                    console.warn(`⚠️ Error HTTP en ${file}:`, response.status);
+                }
             } catch (error) {
-                console.warn(`Error loading ${file}:`, error);
+                console.warn(`❌ Error cargando ${file}:`, error);
             }
         }
         
+        console.log('✅ Total supermercados cargados:', supermarketsData.length);
+        
         // Process and display data
+        console.log('🔄 Procesando datos de tiendas...');
         processShopsData();
+        
+        console.log('🔄 Procesando datos de supermercados...');
         processSupermarketsData();
         
         // Initialize filtered data with all shops
@@ -98,9 +139,19 @@ async function loadData() {
         // Fit map to show all markers
         fitMapToMarkers();
         
+        console.log('🎉 Carga de datos completada exitosamente!');
+        
     } catch (error) {
-        console.error('Error loading data:', error);
-        document.getElementById('loading').innerHTML = '<div style="color: red;">Error cargando datos</div>';
+        console.error('❌ Error cargando datos:', error);
+        console.error('Stack trace:', error.stack);
+        document.getElementById('loading').innerHTML = `
+            <div style="color: red; text-align: center;">
+                <h3>❌ Error cargando datos</h3>
+                <p>${error.message}</p>
+                <p>Revisa la consola del navegador para más detalles</p>
+                <button onclick="location.reload()" style="margin-top: 10px; padding: 8px 16px; background: #e74c3c; color: white; border: none; border-radius: 4px; cursor: pointer;">🔄 Recargar</button>
+            </div>
+        `;
     }
 }
 
@@ -121,17 +172,67 @@ function processShopsData() {
             return false;
         }
         
+        // Calculate values for filtering
+        const totalOrders = (parseInt(shop.pedidos_confirmados) || 0) + (parseInt(shop.pedidos_no_confirmados) || 0);
+        const confirmedOrders = parseInt(shop.pedidos_confirmados) || 0;
+        const unconfirmedOrders = parseInt(shop.pedidos_no_confirmados) || 0;
+        const uniqueClients = parseInt(shop.clientes_unicos) || 0;
+        const newClients = parseInt(shop.clientes_nuevos) || 0;
+        const avgOrdersPerClient = parseFloat(shop.promedio_pedidos_por_cliente) || 0;
+        const avgTicket = parseFloat(shop.ticket_promedio) || 0;
+        const newClientsPercentage = parseFloat(shop.pct_clientes_nuevos) || 0;
+        
         // Apply order count filters
-        const orders = parseInt(shop.pedidos_en_direccion) || 0;
-        if (currentFilters.minOrders > 0 && orders < currentFilters.minOrders) {
+        if (currentFilters.minOrders > 0 && totalOrders < currentFilters.minOrders) {
             return false;
         }
-        if (currentFilters.maxOrders && orders > currentFilters.maxOrders) {
+        if (currentFilters.maxOrders && totalOrders > currentFilters.maxOrders) {
             return false;
         }
         
-        // Apply last order date filter
-        if (currentFilters.lastOrderDate) {
+        // Apply confirmed orders filters
+        if (currentFilters.minConfirmedOrders > 0 && confirmedOrders < currentFilters.minConfirmedOrders) {
+            return false;
+        }
+        
+        // Apply unconfirmed orders filters
+        if (currentFilters.maxUnconfirmedOrders && unconfirmedOrders > currentFilters.maxUnconfirmedOrders) {
+            return false;
+        }
+        
+        // Apply unique clients filters
+        if (currentFilters.minUniqueClients > 0 && uniqueClients < currentFilters.minUniqueClients) {
+            return false;
+        }
+        if (currentFilters.maxUniqueClients && uniqueClients > currentFilters.maxUniqueClients) {
+            return false;
+        }
+        
+        // Apply new clients filters
+        if (currentFilters.minNewClients > 0 && newClients < currentFilters.minNewClients) {
+            return false;
+        }
+        
+        // Apply new clients percentage filter
+        if (currentFilters.minNewClientsPct > 0 && newClientsPercentage < currentFilters.minNewClientsPct) {
+            return false;
+        }
+        
+        // Apply average ticket filters
+        if (currentFilters.minAvgTicket > 0 && avgTicket < currentFilters.minAvgTicket) {
+            return false;
+        }
+        if (currentFilters.maxAvgTicket && avgTicket > currentFilters.maxAvgTicket) {
+            return false;
+        }
+        
+        // Apply average orders per client filter
+        if (currentFilters.minAvgOrdersPerClient > 0 && avgOrdersPerClient < currentFilters.minAvgOrdersPerClient) {
+            return false;
+        }
+        
+        // Apply last order date filter (if we have this data)
+        if (currentFilters.lastOrderDate && shop.mes_ultima_orden) {
             const lastOrder = shop.mes_ultima_orden;
             if (lastOrder && lastOrder < currentFilters.lastOrderDate) {
                 return false;
@@ -165,14 +266,49 @@ function processShopsData() {
             fillOpacity: 0.8
         });
         
+        // Calculate total orders
+        const totalOrders = (parseInt(shop.pedidos_confirmados) || 0) + (parseInt(shop.pedidos_no_confirmados) || 0);
+        const confirmedOrders = parseInt(shop.pedidos_confirmados) || 0;
+        const unconfirmedOrders = parseInt(shop.pedidos_no_confirmados) || 0;
+        const uniqueClients = parseInt(shop.clientes_unicos) || 0;
+        const newClients = parseInt(shop.clientes_nuevos) || 0;
+        const avgOrdersPerClient = parseFloat(shop.promedio_pedidos_por_cliente) || 0;
+        const avgTicket = parseFloat(shop.ticket_promedio) || 0;
+        const newClientsPercentage = parseFloat(shop.pct_clientes_nuevos) || 0;
+        
         const popupContent = `
-            <div style="min-width: 200px;">
-                <h4 style="margin: 0 0 10px 0; color: #e74c3c;">🏪 Tienda Comunitaria</h4>
-                <p><strong>Dirección:</strong> ${shop.delivery_address_main_line || 'No disponible'}</p>
-                <p><strong>Pedidos en dirección:</strong> ${shop.pedidos_en_direccion || '0'}</p>
-                <p><strong>Total pedidos líder:</strong> ${shop.total_pedidos_lider || '0'}</p>
-                <p><strong>Última orden:</strong> ${shop.mes_ultima_orden || 'No disponible'}</p>
-                <p><strong>ID:</strong> ${shop.community_leader_id || 'No disponible'}</p>
+            <div style="min-width: 300px; max-width: 400px;">
+                <h4 style="margin: 0 0 15px 0; color: #e74c3c; border-bottom: 2px solid #e74c3c; padding-bottom: 5px;">🏪 Tienda Comunitaria</h4>
+                
+                <div style="margin-bottom: 15px;">
+                    <p style="margin: 5px 0; font-weight: 600; color: #2c3e50;">📍 Dirección</p>
+                    <p style="margin: 2px 0; color: #34495e;">${shop.delivery_address_main_line || 'No disponible'}</p>
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <p style="margin: 5px 0; font-weight: 600; color: #2c3e50;">📊 Estadísticas de Pedidos</p>
+                    <p style="margin: 2px 0; color: #34495e;"><strong>Total pedidos:</strong> ${totalOrders.toLocaleString()}</p>
+                    <p style="margin: 2px 0; color: #34495e;"><strong>Pedidos confirmados:</strong> ${confirmedOrders.toLocaleString()}</p>
+                    <p style="margin: 2px 0; color: #34495e;"><strong>Pedidos no confirmados:</strong> ${unconfirmedOrders.toLocaleString()}</p>
+                    <p style="margin: 2px 0; color: #34495e;"><strong>Promedio por cliente:</strong> ${avgOrdersPerClient.toFixed(2)}</p>
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <p style="margin: 5px 0; font-weight: 600; color: #2c3e50;">👥 Clientes</p>
+                    <p style="margin: 2px 0; color: #34495e;"><strong>Clientes únicos:</strong> ${uniqueClients.toLocaleString()}</p>
+                    <p style="margin: 2px 0; color: #34495e;"><strong>Clientes nuevos:</strong> ${newClients.toLocaleString()}</p>
+                    <p style="margin: 2px 0; color: #34495e;"><strong>% Clientes nuevos:</strong> ${newClientsPercentage.toFixed(2)}%</p>
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <p style="margin: 5px 0; font-weight: 600; color: #2c3e50;">💰 Financiero</p>
+                    <p style="margin: 2px 0; color: #34495e;"><strong>Ticket promedio:</strong> $${avgTicket.toLocaleString('es-AR', {minimumFractionDigits: 2})}</p>
+                </div>
+                
+                <div style="margin-bottom: 10px;">
+                    <p style="margin: 5px 0; font-weight: 600; color: #2c3e50;">🆔 Identificación</p>
+                    <p style="margin: 2px 0; color: #34495e; font-family: monospace; font-size: 0.9em;">${shop.community_leader_id || 'No disponible'}</p>
+                </div>
             </div>
         `;
         
@@ -314,25 +450,71 @@ function updateDistanceFilter() {
 
 // Update statistics
 function updateStats() {
-    const totalShopsCount = shopsData.filter(shop => 
-        shop.delivery_address_latitude && 
-        shop.delivery_address_longitude &&
-        !isNaN(parseFloat(shop.delivery_address_latitude)) &&
-        !isNaN(parseFloat(shop.delivery_address_longitude))
-    ).length;
+    const totalShops = shopsData.length;
+    const filteredShops = filteredShopsData.length;
+    const totalSupermarkets = supermarketsData.length;
     
-    const shopsCount = filteredShopsData.length;
+    // Calculate additional statistics for filtered shops
+    let totalOrders = 0;
+    let totalConfirmedOrders = 0;
+    let totalUnconfirmedOrders = 0;
+    let totalUniqueClients = 0;
+    let totalNewClients = 0;
+    let totalRevenue = 0;
+    let avgTicket = 0;
+    let avgOrdersPerClient = 0;
     
-    const supermarketsCount = supermarketsData.filter(supermarket => 
-        supermarket.lat && 
-        supermarket.lng &&
-        !isNaN(parseFloat(supermarket.lat)) &&
-        !isNaN(parseFloat(supermarket.lng))
-    ).length;
+    if (filteredShops > 0) {
+        filteredShopsData.forEach(shop => {
+            const orders = (parseInt(shop.pedidos_confirmados) || 0) + (parseInt(shop.pedidos_no_confirmados) || 0);
+            const confirmed = parseInt(shop.pedidos_confirmados) || 0;
+            const unconfirmed = parseInt(shop.pedidos_no_confirmados) || 0;
+            const clients = parseInt(shop.clientes_unicos) || 0;
+            const newClients = parseInt(shop.clientes_nuevos) || 0;
+            const ticket = parseFloat(shop.ticket_promedio) || 0;
+            const ordersPerClient = parseFloat(shop.promedio_pedidos_por_cliente) || 0;
+            
+            totalOrders += orders;
+            totalConfirmedOrders += confirmed;
+            totalUnconfirmedOrders += unconfirmed;
+            totalUniqueClients += clients;
+            totalNewClients += newClients;
+            totalRevenue += (ticket * orders);
+            avgTicket += ticket;
+            avgOrdersPerClient += ordersPerClient;
+        });
+        
+        avgTicket = avgTicket / filteredShops;
+        avgOrdersPerClient = avgOrdersPerClient / filteredShops;
+    }
     
-    document.getElementById('totalShopsCount').textContent = totalShopsCount;
-    document.getElementById('shopsCount').textContent = shopsCount;
-    document.getElementById('supermarketsCount').textContent = supermarketsCount;
+    // Update display - use the existing elements from HTML
+    const shopsCountElement = document.getElementById('shopsCount');
+    const totalShopsCountElement = document.getElementById('totalShopsCount');
+    const supermarketsCountElement = document.getElementById('supermarketsCount');
+    
+    if (shopsCountElement) shopsCountElement.textContent = filteredShops;
+    if (totalShopsCountElement) totalShopsCountElement.textContent = totalShops;
+    if (supermarketsCountElement) supermarketsCountElement.textContent = totalSupermarkets;
+    
+    // Add additional stats display if we have filtered shops
+    let statsHTML = `
+        <span class="shops-count">Tiendas: ${filteredShops} / ${totalShops}</span>
+        <span class="supermarkets-count">Supermercados: ${totalSupermarkets}</span>
+    `;
+    
+    if (filteredShops > 0) {
+        statsHTML += `
+            <span style="color: #27ae60;">📊 Total pedidos: ${totalOrders.toLocaleString()}</span>
+            <span style="color: #f39c12;">👥 Clientes únicos: ${totalUniqueClients.toLocaleString()}</span>
+            <span style="color: #9b59b6;">💰 Ticket promedio: $${avgTicket.toLocaleString('es-AR', {minimumFractionDigits: 2})}</span>
+        `;
+    }
+    
+    const statsElement = document.querySelector('.stats');
+    if (statsElement) {
+        statsElement.innerHTML = statsHTML;
+    }
 }
 
 // Fit map to show all visible markers
@@ -386,10 +568,28 @@ function fitMapToMarkers() {
 function updateFilters() {
     const minOrders = document.getElementById('minOrders').value;
     const maxOrders = document.getElementById('maxOrders').value;
+    const minConfirmedOrders = document.getElementById('minConfirmedOrders').value;
+    const maxUnconfirmedOrders = document.getElementById('maxUnconfirmedOrders').value;
+    const minUniqueClients = document.getElementById('minUniqueClients').value;
+    const maxUniqueClients = document.getElementById('maxUniqueClients').value;
+    const minNewClients = document.getElementById('minNewClients').value;
+    const minNewClientsPct = document.getElementById('minNewClientsPct').value;
+    const minAvgTicket = document.getElementById('minAvgTicket').value;
+    const maxAvgTicket = document.getElementById('maxAvgTicket').value;
+    const minAvgOrdersPerClient = document.getElementById('minAvgOrdersPerClient').value;
     const lastOrderDate = document.getElementById('lastOrderDate').value;
     
     currentFilters.minOrders = minOrders ? parseInt(minOrders) : 0;
     currentFilters.maxOrders = maxOrders ? parseInt(maxOrders) : null;
+    currentFilters.minConfirmedOrders = minConfirmedOrders ? parseInt(minConfirmedOrders) : 0;
+    currentFilters.maxUnconfirmedOrders = maxUnconfirmedOrders ? parseInt(maxUnconfirmedOrders) : null;
+    currentFilters.minUniqueClients = minUniqueClients ? parseInt(minUniqueClients) : 0;
+    currentFilters.maxUniqueClients = maxUniqueClients ? parseInt(maxUniqueClients) : null;
+    currentFilters.minNewClients = minNewClients ? parseInt(minNewClients) : 0;
+    currentFilters.minNewClientsPct = minNewClientsPct ? parseFloat(minNewClientsPct) : 0;
+    currentFilters.minAvgTicket = minAvgTicket ? parseFloat(minAvgTicket) : 0;
+    currentFilters.maxAvgTicket = maxAvgTicket ? parseFloat(maxAvgTicket) : null;
+    currentFilters.minAvgOrdersPerClient = minAvgOrdersPerClient ? parseFloat(minAvgOrdersPerClient) : 0;
     currentFilters.lastOrderDate = lastOrderDate || null;
     
     // Update active filters indicator
@@ -408,6 +608,33 @@ function updateActiveFiltersIndicator() {
     }
     if (currentFilters.maxOrders) {
         activeFilters.push(`Máximo ${currentFilters.maxOrders} pedidos`);
+    }
+    if (currentFilters.minConfirmedOrders > 0) {
+        activeFilters.push(`Mínimo ${currentFilters.minConfirmedOrders} pedidos confirmados`);
+    }
+    if (currentFilters.maxUnconfirmedOrders) {
+        activeFilters.push(`Máximo ${currentFilters.maxUnconfirmedOrders} pedidos no confirmados`);
+    }
+    if (currentFilters.minUniqueClients > 0) {
+        activeFilters.push(`Mínimo ${currentFilters.minUniqueClients} clientes únicos`);
+    }
+    if (currentFilters.maxUniqueClients) {
+        activeFilters.push(`Máximo ${currentFilters.maxUniqueClients} clientes únicos`);
+    }
+    if (currentFilters.minNewClients > 0) {
+        activeFilters.push(`Mínimo ${currentFilters.minNewClients} clientes nuevos`);
+    }
+    if (currentFilters.minNewClientsPct > 0) {
+        activeFilters.push(`Mínimo ${currentFilters.minNewClientsPct}% clientes nuevos`);
+    }
+    if (currentFilters.minAvgTicket > 0) {
+        activeFilters.push(`Mínimo $${currentFilters.minAvgTicket.toLocaleString('es-AR', {minimumFractionDigits: 2})} ticket promedio`);
+    }
+    if (currentFilters.maxAvgTicket) {
+        activeFilters.push(`Máximo $${currentFilters.maxAvgTicket.toLocaleString('es-AR', {minimumFractionDigits: 2})} ticket promedio`);
+    }
+    if (currentFilters.minAvgOrdersPerClient > 0) {
+        activeFilters.push(`Mínimo ${currentFilters.minAvgOrdersPerClient.toFixed(2)} pedidos por cliente`);
     }
     if (currentFilters.lastOrderDate) {
         const date = new Date(currentFilters.lastOrderDate + '-01');
@@ -439,12 +666,30 @@ function applyFilters() {
 function clearFilters() {
     document.getElementById('minOrders').value = '';
     document.getElementById('maxOrders').value = '';
+    document.getElementById('minConfirmedOrders').value = '';
+    document.getElementById('maxUnconfirmedOrders').value = '';
+    document.getElementById('minUniqueClients').value = '';
+    document.getElementById('maxUniqueClients').value = '';
+    document.getElementById('minNewClients').value = '';
+    document.getElementById('minNewClientsPct').value = '';
+    document.getElementById('minAvgTicket').value = '';
+    document.getElementById('maxAvgTicket').value = '';
+    document.getElementById('minAvgOrdersPerClient').value = '';
     document.getElementById('lastOrderDate').value = '';
     document.getElementById('distanceFilter').value = 'all';
     
     currentFilters = {
         minOrders: 0,
         maxOrders: null,
+        minConfirmedOrders: 0,
+        maxUnconfirmedOrders: null,
+        minUniqueClients: 0,
+        maxUniqueClients: null,
+        minNewClients: 0,
+        minNewClientsPct: 0,
+        minAvgTicket: 0,
+        maxAvgTicket: null,
+        minAvgOrdersPerClient: 0,
         lastOrderDate: null,
         distanceFilter: 'all'
     };

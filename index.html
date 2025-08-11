@@ -97,6 +97,26 @@
             font-size: 1.1em;
         }
         
+        .filters-section h4 {
+            margin: 0 0 10px 0;
+            color: #495057;
+            font-size: 0.95em;
+            font-weight: 600;
+        }
+        
+        .filters-section .filter-group {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .filters-section .filter-group h4 {
+            color: #667eea;
+            margin-bottom: 12px;
+        }
+        
         .active-filters {
             background: #e8f5e8;
             border: 1px solid #4caf50;
@@ -127,10 +147,15 @@
             border-radius: 20px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             font-weight: 600;
+            font-size: 0.9em;
         }
         
         .stats .shops-count { color: #e74c3c; }
         .stats .supermarkets-count { color: #3498db; }
+        
+        .stats span:nth-child(3) { color: #27ae60; }
+        .stats span:nth-child(4) { color: #f39c12; }
+        .stats span:nth-child(5) { color: #9b59b6; }
         
         #map {
             height: calc(100vh - 200px);
@@ -215,23 +240,80 @@
         <div class="filters-section">
             <h3>Filtros de Tiendas</h3>
             <p style="margin: 0 0 15px 0; color: #666; font-size: 0.9em;">
-                💡 Filtra las tiendas por cantidad de pedidos y fecha de última compra
+                💡 Filtra las tiendas por múltiples criterios de rendimiento y actividad
             </p>
             <div class="active-filters" id="activeFilters">
                 <strong>Filtros activos:</strong> <span id="activeFiltersText"></span>
             </div>
-            <div class="control-group">
-                <label for="minOrders">Pedidos mínimos:</label>
-                <input type="number" id="minOrders" min="0" placeholder="0" style="width: 80px;">
+            
+            <!-- Filtros de Pedidos -->
+            <div class="filter-group">
+                <h4>📊 Filtros de Pedidos</h4>
+                <div class="control-group">
+                    <label for="minOrders">Total pedidos mínimos:</label>
+                    <input type="number" id="minOrders" min="0" placeholder="0" style="width: 80px;">
+                </div>
+                <div class="control-group">
+                    <label for="maxOrders">Total pedidos máximos:</label>
+                    <input type="number" id="maxOrders" min="0" placeholder="∞" style="width: 80px;">
+                </div>
+                <div class="control-group">
+                    <label for="minConfirmedOrders">Pedidos confirmados mínimos:</label>
+                    <input type="number" id="minConfirmedOrders" min="0" placeholder="0" style="width: 80px;">
+                </div>
+                <div class="control-group">
+                    <label for="maxUnconfirmedOrders">Pedidos no confirmados máximos:</label>
+                    <input type="number" id="maxUnconfirmedOrders" min="0" placeholder="∞" style="width: 80px;">
+                </div>
             </div>
-            <div class="control-group">
-                <label for="maxOrders">Pedidos máximos:</label>
-                <input type="number" id="maxOrders" min="0" placeholder="∞" style="width: 80px;">
+            
+            <!-- Filtros de Clientes -->
+            <div class="filter-group">
+                <h4>👥 Filtros de Clientes</h4>
+                <div class="control-group">
+                    <label for="minUniqueClients">Clientes únicos mínimos:</label>
+                    <input type="number" id="minUniqueClients" min="0" placeholder="0" style="width: 80px;">
+                </div>
+                <div class="control-group">
+                    <label for="maxUniqueClients">Clientes únicos máximos:</label>
+                    <input type="number" id="maxUniqueClients" min="0" placeholder="∞" style="width: 80px;">
+                </div>
+                <div class="control-group">
+                    <label for="minNewClients">Clientes nuevos mínimos:</label>
+                    <input type="number" id="minNewClients" min="0" placeholder="0" style="width: 80px;">
+                </div>
+                <div class="control-group">
+                    <label for="minNewClientsPct">% Clientes nuevos mínimo:</label>
+                    <input type="number" id="minNewClientsPct" min="0" max="100" step="0.1" placeholder="0" style="width: 80px;">
+                </div>
             </div>
-            <div class="control-group">
-                <label for="lastOrderDate">Última compra desde:</label>
-                <input type="month" id="lastOrderDate" style="width: 140px;">
+            
+            <!-- Filtros Financieros -->
+            <div class="filter-group">
+                <h4>💰 Filtros Financieros</h4>
+                <div class="control-group">
+                    <label for="minAvgTicket">Ticket promedio mínimo:</label>
+                    <input type="number" id="minAvgTicket" min="0" step="0.01" placeholder="0" style="width: 100px;">
+                </div>
+                <div class="control-group">
+                    <label for="maxAvgTicket">Ticket promedio máximo:</label>
+                    <input type="number" id="maxAvgTicket" min="0" step="0.01" placeholder="∞" style="width: 100px;">
+                </div>
+                <div class="control-group">
+                    <label for="minAvgOrdersPerClient">Promedio pedidos/cliente mínimo:</label>
+                    <input type="number" id="minAvgOrdersPerClient" min="0" step="0.01" placeholder="0" style="width: 100px;">
+                </div>
             </div>
+            
+            <!-- Filtros de Fecha -->
+            <div class="filter-group">
+                <h4>📅 Filtros de Fecha</h4>
+                <div class="control-group">
+                    <label for="lastOrderDate">Última compra desde:</label>
+                    <input type="month" id="lastOrderDate" style="width: 140px;">
+                </div>
+            </div>
+            
             <div class="control-group">
                 <button id="applyFilters" style="background: #667eea; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Aplicar Filtros</button>
                 <button id="clearFilters" style="background: #95a5a6; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Limpiar</button>

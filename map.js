@@ -232,8 +232,8 @@ function processShopsData() {
         }
         
         // Apply last order date filter (if we have this data)
-        if (currentFilters.lastOrderDate && shop.mes_ultima_orden) {
-            const lastOrder = shop.mes_ultima_orden;
+        if (currentFilters.lastOrderDate && shop.mes_ultima_compra) {
+            const lastOrder = shop.mes_ultima_compra;
             if (lastOrder && lastOrder < currentFilters.lastOrderDate) {
                 return false;
             }

@@ -464,6 +464,11 @@ function updateStats() {
     let avgTicket = 0;
     let avgOrdersPerClient = 0;
     
+    // New averages for filtered shops
+    let avgConfirmedOrders = 0;
+    let avgUnconfirmedOrders = 0;
+    let avgNewClientsPct = 0;
+    
     if (filteredShops > 0) {
         filteredShopsData.forEach(shop => {
             const orders = (parseInt(shop.pedidos_confirmados) || 0) + (parseInt(shop.pedidos_no_confirmados) || 0);
@@ -473,6 +478,7 @@ function updateStats() {
             const newClients = parseInt(shop.clientes_nuevos) || 0;
             const ticket = parseFloat(shop.ticket_promedio) || 0;
             const ordersPerClient = parseFloat(shop.promedio_pedidos_por_cliente) || 0;
+            const newClientsPct = parseFloat(shop.pct_clientes_nuevos) || 0;
             
             totalOrders += orders;
             totalConfirmedOrders += confirmed;
@@ -482,10 +488,17 @@ function updateStats() {
             totalRevenue += (ticket * orders);
             avgTicket += ticket;
             avgOrdersPerClient += ordersPerClient;
+            avgConfirmedOrders += confirmed;
+            avgUnconfirmedOrders += unconfirmed;
+            avgNewClientsPct += newClientsPct;
         });
         
+        // Calculate averages
         avgTicket = avgTicket / filteredShops;
         avgOrdersPerClient = avgOrdersPerClient / filteredShops;
+        avgConfirmedOrders = avgConfirmedOrders / filteredShops;
+        avgUnconfirmedOrders = avgUnconfirmedOrders / filteredShops;
+        avgNewClientsPct = avgNewClientsPct / filteredShops;
     }
     
     // Update display - use the existing elements from HTML
@@ -508,6 +521,13 @@ function updateStats() {
             <span style="color: #27ae60;">📊 Total pedidos: ${totalOrders.toLocaleString()}</span>
             <span style="color: #f39c12;">👥 Clientes únicos: ${totalUniqueClients.toLocaleString()}</span>
             <span style="color: #9b59b6;">💰 Ticket promedio: $${avgTicket.toLocaleString('es-AR', {minimumFractionDigits: 2})}</span>
+        `;
+        
+        // Add new average metrics
+        statsHTML += `
+            <span style="color: #e74c3c;">✅ Prom. pedidos confirmados: ${avgConfirmedOrders.toFixed(1)}</span>
+            <span style="color: #f39c12;">❌ Prom. pedidos no confirmados: ${avgUnconfirmedOrders.toFixed(1)}</span>
+            <span style="color: #9b59b6;">🆕 Prom. % clientes nuevos: ${avgNewClientsPct.toFixed(2)}%</span>
         `;
     }
     

@@ -8,6 +8,9 @@
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     
+    <!-- Leaflet.draw CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+    
     <style>
         body {
             margin: 0;
@@ -440,7 +443,7 @@
         .legend-color.circles { background-color: #3498db; }
         
         .loading {
-            position: absolute;
+            position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -449,6 +452,110 @@
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
             z-index: 1000;
+        }
+        
+        /* Estilos para el control de dibujo */
+        .leaflet-draw-toolbar .leaflet-draw-draw-polygon {
+            background-color: #3388ff !important;
+            color: white !important;
+        }
+        
+        .leaflet-draw-toolbar .leaflet-draw-draw-rectangle {
+            background-color: #3388ff !important;
+            color: white !important;
+        }
+        
+        .leaflet-draw-toolbar .leaflet-draw-edit-edit {
+            background-color: #f39c12 !important;
+            color: white !important;
+        }
+        
+        .leaflet-draw-toolbar .leaflet-draw-edit-remove {
+            background-color: #e74c3c !important;
+            color: white !important;
+        }
+        
+        /* Estilos para la información del área */
+        #areaInfo {
+            margin: 15px 0;
+            transition: all 0.3s ease;
+        }
+        
+        #areaInfo .area-info-box {
+            background: linear-gradient(135deg, #e8f4fd 0%, #d1ecf1 100%);
+            border: 2px solid #bee5eb;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        #areaInfo .area-info-box h4 {
+            margin: 0 0 10px 0;
+            color: #0c5460;
+            font-size: 1.1em;
+        }
+        
+        #areaInfo .area-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        
+        #areaInfo .area-stat {
+            background: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #bee5eb;
+            text-align: center;
+        }
+        
+        #areaInfo .area-stat .stat-value {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #0c5460;
+        }
+        
+        #areaInfo .area-stat .stat-label {
+            font-size: 0.8em;
+            color: #6c757d;
+            margin-top: 2px;
+        }
+        
+        /* Estilos para el control de información */
+        .leaflet-control-info {
+            background: white;
+            border: 2px solid #3388ff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            padding: 0;
+            margin: 10px;
+            min-width: 250px;
+        }
+        
+        .leaflet-control-info .info-content {
+            padding: 15px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 6px;
+        }
+        
+        .leaflet-control-info h4 {
+            margin: 0 0 10px 0;
+            color: #3388ff;
+            font-size: 1em;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 5px;
+        }
+        
+        .leaflet-control-info p {
+            margin: 5px 0;
+            font-size: 0.85em;
+            color: #495057;
+            line-height: 1.4;
+        }
+        
+        .leaflet-control-info strong {
+            color: #e74c3c;
         }
         
         .spinner {
@@ -478,6 +585,20 @@
         <div class="filters-container">
             <!-- Columna izquierda: Primera mitad de filtros -->
             <div class="filters-section">
+                <h3>🗺️ Selección de Área</h3>
+                <p style="margin: 0 0 15px 0; color: #666; font-size: 0.9em;">
+                    🎯 Dibuja un área en el mapa para filtrar tiendas y calcular estadísticas solo de esa región
+                </p>
+                <div style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px; padding: 15px; margin-bottom: 20px;">
+                    <p style="margin: 0 0 10px 0; font-weight: 600; color: #495057;">📝 Instrucciones:</p>
+                    <ul style="margin: 0; padding-left: 20px; color: #6c757d; font-size: 0.9em;">
+                        <li>Usa el control de dibujo en la esquina superior izquierda del mapa</li>
+                        <li>Dibuja un rectángulo o polígono para seleccionar el área</li>
+                        <li>Las estadísticas se calcularán solo para las tiendas dentro del área</li>
+                        <li>Puedes editar o eliminar el área seleccionada</li>
+                    </ul>
+                </div>
+                
                 <h3>Filtros de Tiendas</h3>
                 <p style="margin: 0 0 15px 0; color: #666; font-size: 0.9em;">
                     💡 Filtra las tiendas por múltiples criterios de rendimiento y actividad
@@ -485,6 +606,9 @@
                 <div class="active-filters" id="activeFilters">
                     <strong>Filtros activos:</strong> <span id="activeFiltersText"></span>
                 </div>
+                
+                <!-- Información del área seleccionada -->
+                <div id="areaInfo" style="display: none;"></div>
                 
                 <!-- Filtros de Pedidos -->
                 <div class="filter-group">
@@ -621,6 +745,7 @@
         <div class="filter-buttons">
             <button id="applyFilters" style="background: #667eea; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Aplicar Filtros</button>
             <button id="clearFilters" style="background: #95a5a6; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Limpiar</button>
+            <button id="clearAreaSelection" style="background: #e74c3c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; display: none;">Limpiar Área</button>
         </div>
     </div>
     
@@ -653,6 +778,7 @@
     
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
     <script src="map.js"></script>
 </body>
 </html> 

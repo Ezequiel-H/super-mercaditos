@@ -23,6 +23,12 @@ let currentFilters = {
 };
 let supermarketCircles = [];
 
+// Area selection variables
+let drawControl;
+let selectedArea = null;
+let areaShopsData = [];
+let isAreaSelectionActive = false;
+
 // Initialize the map
 function initMap() {
     // Create map centered on Buenos Aires
@@ -38,6 +44,12 @@ function initMap() {
     supermarketsLayer = L.layerGroup().addTo(map);
     supermarketCirclesLayer = L.layerGroup().addTo(map);
     
+    // Initialize draw control for area selection
+    initDrawControl();
+    
+    // Add custom info control
+    addInfoControl();
+    
     // Set up event listeners for checkboxes
     document.getElementById('showShops').addEventListener('change', toggleShops);
     document.getElementById('showSupermarkets').addEventListener('change', toggleSupermarkets);
@@ -47,6 +59,7 @@ function initMap() {
     document.getElementById('applyFilters').addEventListener('click', applyFilters);
     document.getElementById('clearFilters').addEventListener('click', clearFilters);
     document.getElementById('distanceFilter').addEventListener('change', updateDistanceFilter);
+    document.getElementById('clearAreaSelection').addEventListener('click', clearAreaSelection);
     
     // Set up event listeners for all filter inputs
     document.getElementById('minOrders').addEventListener('input', updateFilters);
@@ -159,99 +172,8 @@ async function loadData() {
 function processShopsData() {
     shopsLayer.clearLayers();
     
-    // Apply filters to shops data
-    filteredShopsData = shopsData.filter(shop => {
-        // Check if shop has valid coordinates
-        if (!shop.delivery_address_latitude || !shop.delivery_address_longitude) {
-            return false;
-        }
-        
-        const lat = parseFloat(shop.delivery_address_latitude);
-        const lng = parseFloat(shop.delivery_address_longitude);
-        if (isNaN(lat) || isNaN(lng)) {
-            return false;
-        }
-        
-        // Calculate values for filtering
-        const totalOrders = (parseInt(shop.pedidos_confirmados) || 0) + (parseInt(shop.pedidos_no_confirmados) || 0);
-        const confirmedOrders = parseInt(shop.pedidos_confirmados) || 0;
-        const unconfirmedOrders = parseInt(shop.pedidos_no_confirmados) || 0;
-        const uniqueClients = parseInt(shop.clientes_unicos) || 0;
-        const newClients = parseInt(shop.clientes_nuevos) || 0;
-        const avgOrdersPerClient = parseFloat(shop.promedio_pedidos_por_cliente) || 0;
-        const avgTicket = parseFloat(shop.ticket_promedio) || 0;
-        const newClientsPercentage = parseFloat(shop.pct_clientes_nuevos) || 0;
-        
-        // Apply order count filters
-        if (currentFilters.minOrders > 0 && totalOrders < currentFilters.minOrders) {
-            return false;
-        }
-        if (currentFilters.maxOrders && totalOrders > currentFilters.maxOrders) {
-            return false;
-        }
-        
-        // Apply confirmed orders filters
-        if (currentFilters.minConfirmedOrders > 0 && confirmedOrders < currentFilters.minConfirmedOrders) {
-            return false;
-        }
-        
-        // Apply unconfirmed orders filters
-        if (currentFilters.maxUnconfirmedOrders && unconfirmedOrders > currentFilters.maxUnconfirmedOrders) {
-            return false;
-        }
-        
-        // Apply unique clients filters
-        if (currentFilters.minUniqueClients > 0 && uniqueClients < currentFilters.minUniqueClients) {
-            return false;
-        }
-        if (currentFilters.maxUniqueClients && uniqueClients > currentFilters.maxUniqueClients) {
-            return false;
-        }
-        
-        // Apply new clients filters
-        if (currentFilters.minNewClients > 0 && newClients < currentFilters.minNewClients) {
-            return false;
-        }
-        
-        // Apply new clients percentage filter
-        if (currentFilters.minNewClientsPct > 0 && newClientsPercentage < currentFilters.minNewClientsPct) {
-            return false;
-        }
-        
-        // Apply average ticket filters
-        if (currentFilters.minAvgTicket > 0 && avgTicket < currentFilters.minAvgTicket) {
-            return false;
-        }
-        if (currentFilters.maxAvgTicket && avgTicket > currentFilters.maxAvgTicket) {
-            return false;
-        }
-        
-        // Apply average orders per client filter
-        if (currentFilters.minAvgOrdersPerClient > 0 && avgOrdersPerClient < currentFilters.minAvgOrdersPerClient) {
-            return false;
-        }
-        
-        // Apply last order date filter (if we have this data)
-        if (currentFilters.lastOrderDate && shop.mes_ultima_compra) {
-            const lastOrder = shop.mes_ultima_compra;
-            if (lastOrder && lastOrder < currentFilters.lastOrderDate) {
-                return false;
-            }
-        }
-        
-        // Apply distance filter
-        if (currentFilters.distanceFilter !== 'all') {
-            const isInside = isShopInsideSupermarketCircle(lat, lng);
-            if (currentFilters.distanceFilter === 'inside' && !isInside) {
-                return false;
-            }
-            if (currentFilters.distanceFilter === 'outside' && isInside) {
-                return false;
-            }
-        }
-        
-        return true;
-    });
+    // Apply filters to shops data using the helper function
+    filteredShopsData = shopsData.filter(shop => applyShopFilters(shop));
     
     filteredShopsData.forEach(shop => {
         const lat = parseFloat(shop.delivery_address_latitude);
@@ -405,6 +327,347 @@ function formatStoreHours(hours) {
     return formattedHours.join(', ');
 }
 
+// Initialize draw control for area selection
+function initDrawControl() {
+    // Create a feature group to hold editable shapes
+    const drawnItems = new L.FeatureGroup();
+    map.addLayer(drawnItems);
+    
+    // Create draw control
+    drawControl = new L.Control.Draw({
+        draw: {
+            polygon: {
+                allowIntersection: false,
+                drawError: {
+                    color: '#e1e100',
+                    message: '<strong>Error:</strong> El polígono no puede intersectarse consigo mismo'
+                },
+                shapeOptions: {
+                    color: '#3388ff',
+                    fillColor: '#3388ff',
+                    fillOpacity: 0.2
+                }
+            },
+            rectangle: {
+                shapeOptions: {
+                    color: '#3388ff',
+                    fillColor: '#3388ff',
+                    fillOpacity: 0.2
+                }
+            },
+            circle: false,
+            marker: false,
+            polyline: false,
+            circlemarker: false
+        },
+        edit: {
+            featureGroup: drawnItems,
+            remove: true
+        }
+    });
+    
+    map.addControl(drawControl);
+    
+    // Handle drawn shapes
+    map.on('draw:created', function(e) {
+        const layer = e.layer;
+        
+        // Clear previous selection
+        drawnItems.clearLayers();
+        selectedArea = null;
+        
+        // Add new shape
+        drawnItems.addLayer(layer);
+        selectedArea = layer;
+        
+        // Filter shops within the selected area
+        filterShopsByArea();
+        
+        // Update UI
+        updateAreaSelectionUI();
+        
+        // Force stats update
+        updateStats();
+    });
+    
+    // Handle edited shapes
+    map.on('draw:edited', function(e) {
+        const layers = e.layers;
+        layers.eachLayer(function(layer) {
+            selectedArea = layer;
+            
+            filterShopsByArea();
+            updateAreaSelectionUI();
+            updateStats();
+        });
+    });
+    
+    // Handle deleted shapes
+    map.on('draw:deleted', function(e) {
+        selectedArea = null;
+        areaShopsData = [];
+        isAreaSelectionActive = false;
+        
+        // Reset to show all filtered shops
+        filteredShopsData = shopsData.filter(shop => applyShopFilters(shop));
+        processShopsData();
+        updateAreaSelectionUI();
+        updateStats();
+    });
+}
+
+// Filter shops by selected area
+function filterShopsByArea() {
+    if (!selectedArea) {
+        areaShopsData = [];
+        isAreaSelectionActive = false;
+        return;
+    }
+    
+    isAreaSelectionActive = true;
+    
+    // First apply current filters to get base filtered data
+    const baseFilteredShops = shopsData.filter(shop => applyShopFilters(shop));
+    
+    // Then filter by area
+    areaShopsData = baseFilteredShops.filter(shop => {
+        if (!shop.delivery_address_latitude || !shop.delivery_address_longitude) {
+            return false;
+        }
+        
+        const lat = parseFloat(shop.delivery_address_latitude);
+        const lng = parseFloat(shop.delivery_address_longitude);
+        
+        if (isNaN(lat) || isNaN(lng)) {
+            return false;
+        }
+        
+        // Create a LatLng point for the shop
+        const shopPoint = L.latLng(lat, lng);
+        
+        // Check if shop is inside the selected area
+        let isInside = false;
+        
+        try {
+            if (selectedArea instanceof L.Rectangle) {
+                isInside = selectedArea.getBounds().contains(shopPoint);
+            } else if (selectedArea instanceof L.Polygon) {
+                // Use our custom point-in-polygon function for precise testing
+                isInside = isPointInPolygon(shopPoint, selectedArea);
+            }
+        } catch (error) {
+            console.error('Error verificando si la tienda está dentro del área:', error);
+            isInside = false;
+        }
+        
+        return isInside;
+    });
+    
+    // Update filtered data to show only area shops
+    filteredShopsData = [...areaShopsData];
+    
+    // Update stats and UI
+    updateStats();
+    updateActiveFiltersIndicator();
+}
+
+// Update area selection UI
+function updateAreaSelectionUI() {
+    const areaInfo = document.getElementById('areaInfo');
+    const clearAreaButton = document.getElementById('clearAreaSelection');
+    
+    if (areaInfo) {
+        if (isAreaSelectionActive && selectedArea) {
+            const bounds = selectedArea.getBounds();
+            const area = calculateArea(bounds);
+            
+            // Calculate additional stats for the selected area
+            let areaTotalOrders = 0;
+            let areaTotalClients = 0;
+            let areaTotalRevenue = 0;
+            
+            areaShopsData.forEach(shop => {
+                const orders = (parseInt(shop.pedidos_confirmados) || 0) + (parseInt(shop.pedidos_no_confirmados) || 0);
+                const clients = parseInt(shop.clientes_unicos) || 0;
+                const ticket = parseFloat(shop.ticket_promedio) || 0;
+                
+                areaTotalOrders += orders;
+                areaTotalClients += clients;
+                areaTotalRevenue += (ticket * orders);
+            });
+            
+            const avgTicket = areaShopsData.length > 0 ? areaTotalRevenue / areaTotalOrders : 0;
+            
+            areaInfo.innerHTML = `
+                <div class="area-info-box">
+                    <h4>📍 Área Seleccionada</h4>
+                    <div class="area-stats">
+                        <div class="area-stat">
+                            <div class="stat-value">${areaShopsData.length}</div>
+                            <div class="stat-label">Tiendas</div>
+                        </div>
+                        <div class="area-stat">
+                            <div class="stat-value">${area.toFixed(2)} km²</div>
+                            <div class="stat-label">Área</div>
+                        </div>
+                        <div class="area-stat">
+                            <div class="stat-value">${areaTotalOrders.toLocaleString()}</div>
+                            <div class="stat-label">Total Pedidos</div>
+                        </div>
+                        <div class="area-stat">
+                            <div class="stat-value">${areaTotalClients.toLocaleString()}</div>
+                            <div class="stat-label">Clientes Únicos</div>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 10px; color: #6c757d; font-size: 0.9em;">
+                        💡 Las estadísticas se calculan solo para las tiendas en esta área
+                    </div>
+                </div>
+            `;
+            areaInfo.style.display = 'block';
+        } else {
+            areaInfo.style.display = 'none';
+        }
+    }
+    
+    // Show/hide clear area button
+    if (clearAreaButton) {
+        clearAreaButton.style.display = isAreaSelectionActive && selectedArea ? 'inline-block' : 'none';
+    }
+}
+
+// Calculate approximate area of selected region
+function calculateArea(bounds) {
+    const lat1 = bounds.getSouth();
+    const lat2 = bounds.getNorth();
+    const lng1 = bounds.getWest();
+    const lng2 = bounds.getEast();
+    
+    // Convert to radians
+    const lat1Rad = lat1 * Math.PI / 180;
+    const lat2Rad = lat2 * Math.PI / 180;
+    const lng1Rad = lng1 * Math.PI / 180;
+    const lng2Rad = lng2 * Math.PI / 180;
+    
+    // Calculate area using spherical approximation
+    const R = 6371; // Earth's radius in km
+    const area = Math.abs(R * R * (lng2Rad - lng1Rad) * (Math.sin(lat2Rad) - Math.sin(lat1Rad)));
+    
+    return area;
+}
+
+// Clear area selection
+function clearAreaSelection() {
+    if (drawControl && drawControl._toolbars && drawControl._toolbars.edit) {
+        drawControl._toolbars.edit._modes.remove.handler.removeAllLayers();
+    }
+    
+    selectedArea = null;
+    areaShopsData = [];
+    isAreaSelectionActive = false;
+    
+    // Reset to show all filtered shops
+    filteredShopsData = shopsData.filter(shop => applyShopFilters(shop));
+    processShopsData();
+    updateAreaSelectionUI();
+    updateStats();
+    updateActiveFiltersIndicator();
+}
+
+// Helper function to apply shop filters
+function applyShopFilters(shop) {
+    // Check if shop has valid coordinates
+    if (!shop.delivery_address_latitude || !shop.delivery_address_longitude) {
+        return false;
+    }
+    
+    const lat = parseFloat(shop.delivery_address_latitude);
+    const lng = parseFloat(shop.delivery_address_longitude);
+    if (isNaN(lat) || isNaN(lng)) {
+        return false;
+    }
+    
+    // Calculate values for filtering
+    const totalOrders = (parseInt(shop.pedidos_confirmados) || 0) + (parseInt(shop.pedidos_no_confirmados) || 0);
+    const confirmedOrders = parseInt(shop.pedidos_confirmados) || 0;
+    const unconfirmedOrders = parseInt(shop.pedidos_no_confirmados) || 0;
+    const uniqueClients = parseInt(shop.clientes_unicos) || 0;
+    const newClients = parseInt(shop.clientes_nuevos) || 0;
+    const avgOrdersPerClient = parseFloat(shop.promedio_pedidos_por_cliente) || 0;
+    const avgTicket = parseFloat(shop.ticket_promedio) || 0;
+    const newClientsPercentage = parseFloat(shop.pct_clientes_nuevos) || 0;
+    
+    // Apply order count filters
+    if (currentFilters.minOrders > 0 && totalOrders < currentFilters.minOrders) {
+        return false;
+    }
+    if (currentFilters.maxOrders && totalOrders > currentFilters.maxOrders) {
+        return false;
+    }
+    
+    // Apply confirmed orders filters
+    if (currentFilters.minConfirmedOrders > 0 && confirmedOrders < currentFilters.minConfirmedOrders) {
+        return false;
+    }
+    
+    // Apply unconfirmed orders filters
+    if (currentFilters.maxUnconfirmedOrders && unconfirmedOrders > currentFilters.maxUnconfirmedOrders) {
+        return false;
+    }
+    
+    // Apply unique clients filters
+    if (currentFilters.minUniqueClients > 0 && uniqueClients < currentFilters.minUniqueClients) {
+        return false;
+    }
+    if (currentFilters.maxUniqueClients && uniqueClients > currentFilters.maxUniqueClients) {
+        return false;
+    }
+    
+    // Apply new clients filters
+    if (currentFilters.minNewClients > 0 && newClients < currentFilters.minNewClients) {
+        return false;
+    }
+    
+    // Apply new clients percentage filter
+    if (currentFilters.minNewClientsPct > 0 && newClientsPercentage < currentFilters.minNewClientsPct) {
+        return false;
+    }
+    
+    // Apply average ticket filters
+    if (currentFilters.minAvgTicket > 0 && avgTicket < currentFilters.minAvgTicket) {
+        return false;
+    }
+    if (currentFilters.maxAvgTicket && avgTicket > currentFilters.maxAvgTicket) {
+        return false;
+    }
+    
+    // Apply average orders per client filter
+    if (currentFilters.minAvgOrdersPerClient > 0 && avgOrdersPerClient < currentFilters.minAvgOrdersPerClient) {
+        return false;
+    }
+    
+    // Apply last order date filter (if we have this data)
+    if (currentFilters.lastOrderDate && shop.mes_ultima_compra) {
+        const lastOrder = shop.mes_ultima_compra;
+        if (lastOrder && lastOrder < currentFilters.lastOrderDate) {
+            return false;
+        }
+    }
+    
+    // Apply distance filter
+    if (currentFilters.distanceFilter !== 'all') {
+        const isInside = isShopInsideSupermarketCircle(lat, lng);
+        if (currentFilters.distanceFilter === 'inside' && !isInside) {
+            return false;
+        }
+        if (currentFilters.distanceFilter === 'outside' && isInside) {
+            return false;
+        }
+    }
+    
+    return true;
+}
+
 // Toggle shops visibility
 function toggleShops() {
     const showShops = document.getElementById('showShops').checked;
@@ -519,6 +782,17 @@ function updateStats() {
         <span class="shops-count">Tiendas: ${filteredShops} / ${totalShops}</span>
         <span class="supermarkets-count">Supermercados: ${totalSupermarkets}</span>
     `;
+    
+    // Add area indicator if area is selected
+    if (isAreaSelectionActive && selectedArea) {
+        const bounds = selectedArea.getBounds();
+        const area = calculateArea(bounds);
+        statsHTML = `
+            <span class="shops-count">📍 ÁREA SELECCIONADA - Tiendas: ${filteredShops} / ${totalShops}</span>
+            <span class="supermarkets-count">Supermercados: ${totalSupermarkets}</span>
+            <span style="color: #3388ff; font-weight: bold;">🗺️ Área: ${area.toFixed(2)} km²</span>
+        `;
+    }
     
     if (filteredShops > 0) {
         statsHTML += `
@@ -672,6 +946,13 @@ function updateActiveFiltersIndicator() {
         activeFilters.push('Solo fuera de círculos de supermercados');
     }
     
+    // Add area selection information
+    if (isAreaSelectionActive && selectedArea) {
+        const bounds = selectedArea.getBounds();
+        const area = calculateArea(bounds);
+        activeFilters.push(`📍 Área seleccionada (${area.toFixed(2)} km²)`);
+    }
+    
     if (activeFilters.length > 0) {
         activeFiltersText.textContent = activeFilters.join(', ');
         activeFiltersDiv.classList.add('show');
@@ -722,8 +1003,36 @@ function clearFilters() {
     // Hide active filters indicator
     document.getElementById('activeFilters').classList.remove('show');
     
+    // Clear area selection
+    clearAreaSelection();
+    
     processShopsData();
     fitMapToMarkers();
+}
+
+// Add custom info control
+function addInfoControl() {
+    const infoControl = L.Control.extend({
+        options: {
+            position: 'bottomleft'
+        },
+        onAdd: function(map) {
+            const div = L.DomUtil.create('div', 'leaflet-control-info');
+            div.innerHTML = `
+                <div class="info-content">
+                    <h4>Ayuda de Selección de Área</h4>
+                    <p>Haz clic y arrastra para seleccionar un área en el mapa.</p>
+                    <p>Una vez seleccionada, solo se mostrarán las tiendas dentro de esta área.</p>
+                    <p>Puedes <strong>limpiar la selección</strong> haciendo clic en el botón "Limpiar Área Selección" o <strong>aplicar filtros</strong> para volver a mostrar todas las tiendas.</p>
+                </div>
+            `;
+            return div;
+        }
+    });
+
+    map.addControl(new infoControl({
+        position: 'bottomleft'
+    }));
 }
 
 // Initialize map when page loads

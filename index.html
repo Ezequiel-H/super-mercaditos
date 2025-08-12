@@ -37,43 +37,131 @@
         
         .controls {
             background: white;
-            padding: 15px;
+            padding: 20px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .visibility-controls {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
+            gap: 40px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 10px;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .visibility-controls .control-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 16px;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+        }
+        
+        .visibility-controls .control-group:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+        
+        .visibility-controls .control-group label {
+            font-weight: 600;
+            color: #495057;
+            margin: 0;
+            min-width: auto;
+        }
+        
+        .filters-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            animation: slideUp 0.5s ease-out;
+        }
+        
+        @keyframes slideUp {
+            from { 
+                opacity: 0; 
+                transform: translateY(20px); 
+            }
+            to { 
+                opacity: 1; 
+                transform: translateY(0); 
+            }
         }
         
         .control-group {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
+            margin-bottom: 10px;
+            transition: all 0.2s ease;
+        }
+        
+        .control-group:hover {
+            transform: translateX(2px);
         }
         
         .control-group label {
             font-weight: 600;
             color: #333;
+            min-width: 130px;
+            transition: color 0.2s ease;
+        }
+        
+        .control-group:hover label {
+            color: #667eea;
         }
         
         .control-group input[type="checkbox"] {
-            transform: scale(1.2);
+            transform: scale(1.3);
+            accent-color: #667eea;
+            cursor: pointer;
+        }
+        
+        .control-group input[type="checkbox"]:focus {
+            outline: 2px solid #667eea;
+            outline-offset: 2px;
         }
         
         .control-group input[type="number"],
         .control-group input[type="month"] {
-            padding: 6px 8px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            padding: 8px 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
             font-size: 14px;
+            transition: all 0.2s ease;
+            background: white;
+        }
+        
+        .control-group input[type="number"]:focus,
+        .control-group input[type="month"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
         
         .control-group select {
-            padding: 6px 8px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            padding: 8px 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
             font-size: 14px;
             background: white;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        
+        .control-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
         
         .control-group button {
@@ -86,50 +174,205 @@
         }
         
         .filters-section {
-            border-top: 1px solid #dee2e6;
-            margin-top: 15px;
-            padding-top: 15px;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            padding: 25px;
+            background: #fafbfc;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: all 0.2s ease;
+        }
+        
+        .filters-section:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
         
         .filters-section h3 {
-            margin: 0 0 10px 0;
+            margin: 0 0 20px 0;
             color: #495057;
-            font-size: 1.1em;
-        }
-        
-        .filters-section h4 {
-            margin: 0 0 10px 0;
-            color: #495057;
-            font-size: 0.95em;
+            font-size: 1.3em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 12px;
             font-weight: 600;
         }
         
+        .filters-section p {
+            margin: 0 0 20px 0;
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.4;
+        }
+        
+        .filters-section h4 {
+            margin: 0 0 12px 0;
+            color: #667eea;
+            font-size: 1em;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
         .filters-section .filter-group {
-            background: #f8f9fa;
-            padding: 15px;
+            background: white;
+            padding: 18px;
             border-radius: 8px;
-            margin-bottom: 15px;
+            margin-bottom: 18px;
             border-left: 4px solid #667eea;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+        }
+        
+        .filters-section .filter-group:hover {
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            transform: translateY(-1px);
         }
         
         .filters-section .filter-group h4 {
             color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.05em;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .filters-section .filter-group .control-group {
             margin-bottom: 12px;
         }
         
+        .filters-section .filter-group .control-group:last-child {
+            margin-bottom: 0;
+        }
+        
+        .filter-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .filter-row:last-child {
+            margin-bottom: 0;
+        }
+        
+        .filter-row .control-group {
+            margin-bottom: 0;
+        }
+        
+        .filter-row .control-group label {
+            min-width: auto;
+            font-size: 0.9em;
+        }
+        
+        .filter-row .control-group input {
+            width: 100% !important;
+            max-width: 140px;
+        }
+        
+        .filter-row .control-group input[type="month"] {
+            max-width: 160px;
+        }
+        
+        .filter-row .control-group input[type="checkbox"] {
+            transform: scale(1.2);
+            accent-color: #667eea;
+            cursor: pointer;
+        }
+        
+        .filter-row .control-group input[type="checkbox"]:focus {
+            outline: 2px solid #667eea;
+            outline-offset: 2px;
+        }
+        
+        .filter-row .control-group label[for="showShops"],
+        .filter-row .control-group label[for="showSupermarkets"] {
+            font-weight: 600;
+            color: #495057;
+        }
+        
         .active-filters {
-            background: #e8f5e8;
-            border: 1px solid #4caf50;
-            border-radius: 4px;
-            padding: 8px 12px;
-            margin: 10px 0;
+            background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+            border: 2px solid #4caf50;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin: 15px 0 20px 0;
             font-size: 0.9em;
             color: #2e7d32;
             display: none;
+            box-shadow: 0 2px 6px rgba(76, 175, 80, 0.2);
+            font-weight: 500;
         }
         
         .active-filters.show {
             display: block;
+            animation: fadeIn 0.3s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .filter-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+            justify-content: center;
+            grid-column: 1 / -1;
+        }
+        
+        .filter-buttons button {
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            font-size: 14px;
+            min-width: 120px;
+        }
+        
+        .filter-buttons button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .filter-buttons button:active {
+            transform: translateY(0);
+        }
+        
+        /* Responsive design for smaller screens */
+        @media (max-width: 1200px) {
+            .filters-container {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .visibility-controls {
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+            }
+            
+            .controls {
+                padding: 15px;
+            }
+            
+            .filters-section {
+                padding: 15px;
+            }
+            
+            .filter-row {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .filter-row .control-group input {
+                max-width: none;
+            }
         }
         
         .stats {
@@ -159,6 +402,7 @@
         .stats span:nth-child(6) { color: #e74c3c; }
         .stats span:nth-child(7) { color: #f39c12; }
         .stats span:nth-child(8) { color: #9b59b6; }
+        .stats span:nth-child(9) { color: #e67e22; }
         
         #map {
             height: calc(100vh - 200px);
@@ -230,117 +474,153 @@
     </div>
     
     <div class="controls">
-        <div class="control-group">
-            <input type="checkbox" id="showShops" checked>
-            <label for="showShops">Mostrar Tiendas</label>
-        </div>
-        <div class="control-group">
-            <input type="checkbox" id="showSupermarkets" checked>
-            <label for="showSupermarkets">Mostrar Supermercados</label>
+        <!-- Contenedor de filtros en dos columnas -->
+        <div class="filters-container">
+            <!-- Columna izquierda: Primera mitad de filtros -->
+            <div class="filters-section">
+                <h3>Filtros de Tiendas</h3>
+                <p style="margin: 0 0 15px 0; color: #666; font-size: 0.9em;">
+                    💡 Filtra las tiendas por múltiples criterios de rendimiento y actividad
+                </p>
+                <div class="active-filters" id="activeFilters">
+                    <strong>Filtros activos:</strong> <span id="activeFiltersText"></span>
+                </div>
+                
+                <!-- Filtros de Pedidos -->
+                <div class="filter-group">
+                    <h4>📊 Filtros de Pedidos</h4>
+                    <div class="filter-row">
+                        <div class="control-group">
+                            <label for="minOrders">Total pedidos mínimos:</label>
+                            <input type="number" id="minOrders" min="0" placeholder="0" style="width: 80px;">
+                        </div>
+                        <div class="control-group">
+                            <label for="maxOrders">Total pedidos máximos:</label>
+                            <input type="number" id="maxOrders" min="0" placeholder="∞" style="width: 80px;">
+                        </div>
+                    </div>
+                    <div class="filter-row">
+                        <div class="control-group">
+                            <label for="minConfirmedOrders">Pedidos confirmados mínimos:</label>
+                            <input type="number" id="minConfirmedOrders" min="0" placeholder="0" style="width: 80px;">
+                        </div>
+                        <div class="control-group">
+                            <label for="maxUnconfirmedOrders">Pedidos no confirmados máximos:</label>
+                            <input type="number" id="maxUnconfirmedOrders" min="0" placeholder="∞" style="width: 80px;">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Filtros de Clientes -->
+                <div class="filter-group">
+                    <h4>👥 Filtros de Clientes</h4>
+                    <div class="filter-row">
+                        <div class="control-group">
+                            <label for="minUniqueClients">Clientes únicos mínimos:</label>
+                            <input type="number" id="minUniqueClients" min="0" placeholder="0" style="width: 80px;">
+                        </div>
+                        <div class="control-group">
+                            <label for="maxUniqueClients">Clientes únicos máximos:</label>
+                            <input type="number" id="maxUniqueClients" min="0" placeholder="∞" style="width: 80px;">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Controles de visibilidad -->
+                <div class="filter-group">
+                    <h4>👁️ Controles de Visibilidad</h4>
+                    <div class="filter-row">
+                        <div class="control-group">
+                            <input type="checkbox" id="showShops" checked>
+                            <label for="showShops">Mostrar Tiendas</label>
+                        </div>
+                        <div class="control-group">
+                            <input type="checkbox" id="showSupermarkets" checked>
+                            <label for="showSupermarkets">Mostrar Supermercados</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Columna derecha: Segunda mitad de filtros -->
+            <div class="filters-section">
+                <h3>Filtros Adicionales</h3>
+                <p style="margin: 0 0 15px 0; color: #666; font-size: 0.9em;">
+                    🎯 Filtros adicionales para refinar la búsqueda de tiendas
+                </p>
+                
+                <!-- Filtros de Clientes (continuación) -->
+                <div class="filter-group">
+                    <h4>👥 Filtros de Clientes (continuación)</h4>
+                    <div class="filter-row">
+                        <div class="control-group">
+                            <label for="minNewClients">Clientes nuevos mínimos:</label>
+                            <input type="number" id="minNewClients" min="0" placeholder="0" style="width: 80px;">
+                        </div>
+                        <div class="control-group">
+                            <label for="minNewClientsPct">% Clientes nuevos mínimo:</label>
+                            <input type="number" id="minNewClientsPct" min="0" max="100" step="0.1" placeholder="0" style="width: 80px;">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Filtros Financieros -->
+                <div class="filter-group">
+                    <h4>💰 Filtros Financieros</h4>
+                    <div class="filter-row">
+                        <div class="control-group">
+                            <label for="minAvgTicket">Ticket promedio mínimo:</label>
+                            <input type="number" id="minAvgTicket" min="0" step="0.01" placeholder="0" style="width: 100px;">
+                        </div>
+                        <div class="control-group">
+                            <label for="maxAvgTicket">Ticket promedio máximo:</label>
+                            <input type="number" id="maxAvgTicket" min="0" step="0.01" placeholder="∞" style="width: 100px;">
+                        </div>
+                    </div>
+                    <div class="filter-row">
+                        <div class="control-group">
+                            <label for="minAvgOrdersPerClient">Promedio pedidos/cliente mínimo:</label>
+                            <input type="number" id="minAvgOrdersPerClient" min="0" step="0.01" placeholder="0" style="width: 100px;">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Filtros de Fecha -->
+                <div class="filter-group">
+                    <h4>📅 Filtros de Fecha</h4>
+                    <div class="filter-row">
+                        <div class="control-group">
+                            <label for="lastOrderDate">Última compra desde:</label>
+                            <input type="month" id="lastOrderDate" style="width: 140px;">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Filtros de Distancia -->
+                <div class="filter-group">
+                    <h4>🏪 Filtros de Distancia</h4>
+                    <div class="filter-row">
+                        <div class="control-group">
+                            <input type="checkbox" id="showSupermarketCircles" checked>
+                            <label for="showSupermarketCircles">Mostrar círculos de 1km</label>
+                        </div>
+                        <div class="control-group">
+                            <label for="distanceFilter">Filtrar tiendas:</label>
+                            <select id="distanceFilter" style="padding: 6px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;">
+                                <option value="all">Todas las tiendas</option>
+                                <option value="inside">Solo dentro de círculos</option>
+                                <option value="outside">Solo fuera de círculos</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
-        <!-- Filtros para tiendas -->
-        <div class="filters-section">
-            <h3>Filtros de Tiendas</h3>
-            <p style="margin: 0 0 15px 0; color: #666; font-size: 0.9em;">
-                💡 Filtra las tiendas por múltiples criterios de rendimiento y actividad
-            </p>
-            <div class="active-filters" id="activeFilters">
-                <strong>Filtros activos:</strong> <span id="activeFiltersText"></span>
-            </div>
-            
-            <!-- Filtros de Pedidos -->
-            <div class="filter-group">
-                <h4>📊 Filtros de Pedidos</h4>
-                <div class="control-group">
-                    <label for="minOrders">Total pedidos mínimos:</label>
-                    <input type="number" id="minOrders" min="0" placeholder="0" style="width: 80px;">
-                </div>
-                <div class="control-group">
-                    <label for="maxOrders">Total pedidos máximos:</label>
-                    <input type="number" id="maxOrders" min="0" placeholder="∞" style="width: 80px;">
-                </div>
-                <div class="control-group">
-                    <label for="minConfirmedOrders">Pedidos confirmados mínimos:</label>
-                    <input type="number" id="minConfirmedOrders" min="0" placeholder="0" style="width: 80px;">
-                </div>
-                <div class="control-group">
-                    <label for="maxUnconfirmedOrders">Pedidos no confirmados máximos:</label>
-                    <input type="number" id="maxUnconfirmedOrders" min="0" placeholder="∞" style="width: 80px;">
-                </div>
-            </div>
-            
-            <!-- Filtros de Clientes -->
-            <div class="filter-group">
-                <h4>👥 Filtros de Clientes</h4>
-                <div class="control-group">
-                    <label for="minUniqueClients">Clientes únicos mínimos:</label>
-                    <input type="number" id="minUniqueClients" min="0" placeholder="0" style="width: 80px;">
-                </div>
-                <div class="control-group">
-                    <label for="maxUniqueClients">Clientes únicos máximos:</label>
-                    <input type="number" id="maxUniqueClients" min="0" placeholder="∞" style="width: 80px;">
-                </div>
-                <div class="control-group">
-                    <label for="minNewClients">Clientes nuevos mínimos:</label>
-                    <input type="number" id="minNewClients" min="0" placeholder="0" style="width: 80px;">
-                </div>
-                <div class="control-group">
-                    <label for="minNewClientsPct">% Clientes nuevos mínimo:</label>
-                    <input type="number" id="minNewClientsPct" min="0" max="100" step="0.1" placeholder="0" style="width: 80px;">
-                </div>
-            </div>
-            
-            <!-- Filtros Financieros -->
-            <div class="filter-group">
-                <h4>💰 Filtros Financieros</h4>
-                <div class="control-group">
-                    <label for="minAvgTicket">Ticket promedio mínimo:</label>
-                    <input type="number" id="minAvgTicket" min="0" step="0.01" placeholder="0" style="width: 100px;">
-                </div>
-                <div class="control-group">
-                    <label for="maxAvgTicket">Ticket promedio máximo:</label>
-                    <input type="number" id="maxAvgTicket" min="0" step="0.01" placeholder="∞" style="width: 100px;">
-                </div>
-                <div class="control-group">
-                    <label for="minAvgOrdersPerClient">Promedio pedidos/cliente mínimo:</label>
-                    <input type="number" id="minAvgOrdersPerClient" min="0" step="0.01" placeholder="0" style="width: 100px;">
-                </div>
-            </div>
-            
-            <!-- Filtros de Fecha -->
-            <div class="filter-group">
-                <h4>📅 Filtros de Fecha</h4>
-                <div class="control-group">
-                    <label for="lastOrderDate">Última compra desde:</label>
-                    <input type="month" id="lastOrderDate" style="width: 140px;">
-                </div>
-            </div>
-            
-            <div class="control-group">
-                <button id="applyFilters" style="background: #667eea; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Aplicar Filtros</button>
-                <button id="clearFilters" style="background: #95a5a6; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Limpiar</button>
-            </div>
-        </div>
-        
-        <!-- Filtros de distancia a supermercados -->
-        <div class="filters-section">
-            <h3>Filtros de Distancia a Supermercados</h3>
-            <p style="margin: 0 0 15px 0; color: #666; font-size: 0.9em;">
-                🏪 Filtra las tiendas según su proximidad a supermercados (radio de 1km)
-            </p>
-            <div class="control-group">
-                <input type="checkbox" id="showSupermarketCircles" checked>
-                <label for="showSupermarketCircles">Mostrar círculos de 1km</label>
-            </div>
-            <div class="control-group">
-                <label for="distanceFilter">Filtrar tiendas:</label>
-                <select id="distanceFilter" style="padding: 6px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;">
-                    <option value="all">Todas las tiendas</option>
-                    <option value="inside">Solo dentro de círculos</option>
-                    <option value="outside">Solo fuera de círculos</option>
-                </select>
-            </div>
+        <!-- Botones de filtros centrados debajo de ambas columnas -->
+        <div class="filter-buttons">
+            <button id="applyFilters" style="background: #667eea; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Aplicar Filtros</button>
+            <button id="clearFilters" style="background: #95a5a6; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Limpiar</button>
         </div>
     </div>
     

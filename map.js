@@ -468,6 +468,7 @@ function updateStats() {
     let avgConfirmedOrders = 0;
     let avgUnconfirmedOrders = 0;
     let avgNewClientsPct = 0;
+    let avgOrdersPerUser = 0;
     
     if (filteredShops > 0) {
         filteredShopsData.forEach(shop => {
@@ -499,6 +500,9 @@ function updateStats() {
         avgConfirmedOrders = avgConfirmedOrders / filteredShops;
         avgUnconfirmedOrders = avgUnconfirmedOrders / filteredShops;
         avgNewClientsPct = avgNewClientsPct / filteredShops;
+        
+        // Calculate average orders per user (total orders / total unique users)
+        avgOrdersPerUser = totalUniqueClients > 0 ? totalOrders / totalUniqueClients : 0;
     }
     
     // Update display - use the existing elements from HTML
@@ -528,6 +532,7 @@ function updateStats() {
             <span style="color: #e74c3c;">✅ Prom. pedidos confirmados: ${avgConfirmedOrders.toFixed(1)}</span>
             <span style="color: #f39c12;">❌ Prom. pedidos no confirmados: ${avgUnconfirmedOrders.toFixed(1)}</span>
             <span style="color: #9b59b6;">🆕 Prom. % clientes nuevos: ${avgNewClientsPct.toFixed(2)}%</span>
+            <span style="color: #e67e22;">👤 Prom. pedidos por usuario: ${avgOrdersPerUser.toFixed(2)}</span>
         `;
     }
     
